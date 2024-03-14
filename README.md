@@ -37,3 +37,8 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+# TODO
+
+## Find a hero picture
+* [Washington DC Cherry Blossoms](https://www.cntraveler.com/story/how-to-see-washington-dc-cherry-blossoms-this-year)
