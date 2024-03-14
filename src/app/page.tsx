@@ -7,10 +7,10 @@ import SteeringCommittee from '@/components/section/steering_committee';
 export default function Home() {
   return (
     <main>
-      {/* Header */}
-      <Navbar />
-      {/* Hero */}
-      <Hero />
+        {/* Header */}
+        <Navbar />
+        {/* Hero */}
+        <Hero />
       {/* Conference */}
       <Conference />
       {/* SteeringCommittee */}
