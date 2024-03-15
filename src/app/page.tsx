@@ -3,16 +3,18 @@ import Hero from '@/components/section/hero';
 import Conference from '@/components/section/conference';
 import Committee from '@/components/section/committee';
 import SteeringCommittee from '@/components/section/steering_committee';
-
+import Where from '@/components/section/where';
 export default function Home() {
   return (
     <main>
-        {/* Header */}
-        <Navbar />
-        {/* Hero */}
-        <Hero />
+      {/* Header */}
+      <Navbar />
+      {/* Hero */}
+      <Hero />
       {/* Conference */}
       <Conference />
+      {/* Where and When*/}
+      <Where />
       {/* SteeringCommittee */}
       <SteeringCommittee />
       {/* Committee */}

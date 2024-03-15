@@ -1,11 +1,10 @@
 import React from 'react'
-import Image from 'next/image'
 
 export default function Hero() {
   return (
     <>
-      <div className="relative bg-top bg-cover bg-[url('/img/washington.jpg')] h-screen flex items-center z-0">
-        <div  className="absolute inset-0 bg-black opacity-50 z-10"></div> 
+      <div className="relative bg-top bg-cover bg-[url('/img/washington_3.webp')] h-screen flex items-center z-0">
+        <div  className="absolute inset-0 bg-black opacity-20 z-10"></div> 
         <div className='container mx-auto max-w-screen-lg grid grid-cols-2'>
           <div id="hero-title" className='z-20 bg-black bg-opacity-60 px-10 py-10 rounded-lg'>
             <div id="hero-text">
