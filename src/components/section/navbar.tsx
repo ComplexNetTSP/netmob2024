@@ -9,7 +9,6 @@ export default function Navbar({props}:{props?:React.HTMLProps<HTMLElement>}) {
         <div>Conference</div>
         <div>When & Where</div>
         <div>Program</div>
-        <div>Book of Abstract</div>
         <div>Registration</div>
         <div>Organizer</div>
         <div>Contact</div>

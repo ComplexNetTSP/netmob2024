@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <div className='mt-20 py-20 w-full bg-slate-700'>
+    <div className='py-20 w-full bg-slate-700'>
       <div className='container mx-auto max-w-screen-lg'>
         <div className='flex gap-16 justify-between'>
           {/* col 1 link to the past Netmob conference*/}
