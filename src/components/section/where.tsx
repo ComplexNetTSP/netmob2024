@@ -11,7 +11,7 @@ export default function Where() {
         <div className='grid grid-cols-2 gap-6 mt-10'>
           
           <div id='where-main-section'>
-            NetMob 2023 will take place on 7-8 Oct 2024 at the Auditorium of the Worldbank headquarter, located in downtown Washington DC, USA.
+            NetMob 2024 will take place on 7-8 Oct 2024 at the Auditorium of the Worldbank headquarter, located in downtown Washington DC, USA.
           </div>
 
           <div id='worldbank-hq' className='relative bg-white border rounded-xl overflow-hidden shadow-xl w-full h-80'>

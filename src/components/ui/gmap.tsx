@@ -12,7 +12,7 @@ export default function Gmap({className, ...props}:React.HTMLAttributes<HTMLDivE
           defaultCenter={{ lat: center.lat, lng: center.lng }}
           defaultZoom={14}
           gestureHandling={'greedy'}
-          disableDefaultUI={true}
+          disableDefaultUI={false}
           mapId={'c6c3684615d986c5'}
         >
           <AdvancedMarker position={{lat: center.lat, lng: center.lng}} />
