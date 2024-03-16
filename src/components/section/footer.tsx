@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
+import XLogo from '../icons/x'
+import Bluesky from '../icons/bluesky'
 
 export default function Footer() {
   return (
@@ -45,7 +47,18 @@ export default function Footer() {
           <div className='text-white flex flex-col gap-2'>
           <div className='uppercase font-medium mb-2'>Contact</div>
           <div className='uppercase font-medium mb-2'>Follow us</div>
-          <div className='uppercase font-medium mb-2'>NewsLetter</div>
+          <div className='flex'>
+            <Link href="https://twitter.com/netmob23" className='flex items-center'>
+              <button type="button" className="flex justify-center items-center bg-blue-600 rounded-full w-7 h-7"><XLogo className='w-3 h-3 text-white' /></button>
+            </Link>
+            <Link href="https://twitter.com/netmob23" className='ml-3 flex items-center'>
+              <button type="button" className="flex justify-center items-center bg-blue-600 rounded-full w-7 h-7"> <Bluesky className='w-4 h-4 text-white' /></button>
+            </Link>
+          </div>
+          <div className='uppercase font-medium mt-4 mb-2'>NewsLetters</div>
+            <Link href="https://sympa-1.sipr.ucl.ac.be/listes/info/netmob" className='flex items-center'>
+              <button type="button" className="flex justify-center items-center bg-blue-600 rounded px-5 py-2 border"><span>Subscribe</span></button>
+            </Link><div className='text-sm'></div>
           </div>
         </div>
       </div>

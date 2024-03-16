@@ -6,7 +6,7 @@ import Gmap from '@/components/ui/gmap'
 export default function Where() {
   return (
     <div className='bg-slate-50'>
-      <div className='pt-20 container mx-auto max-w-screen-lg'>
+      <div className='pt-20 pb-10 container mx-auto max-w-screen-lg'>
         <div id='where-title' className='flex justify-center text-4xl font-bold'>When and Where</div>
         <div className='grid grid-cols-2 gap-6 mt-10'>
           
