@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import { Atrament } from './fonts';
+import { GeistSans } from 'geist/font/sans';
 import "./globals.css";
-
-const open_sans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Netmob 2024",
@@ -16,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={open_sans.className}>{children}</body>
+      <body className={`${GeistSans.variable} ${Atrament.variable} font-sans`}>{children}</body>
     </html>
   );
 }

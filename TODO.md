@@ -11,3 +11,6 @@
   * change the background color
 * add a footer section
 * add a registration section
+* social networks
+  * create X a acount netmob2024
+  * create BlueSky a acount netmob2024
