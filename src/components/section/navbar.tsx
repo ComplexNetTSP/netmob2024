@@ -1,12 +1,14 @@
 import React from 'react'
 import { cn } from '@/lib/utils'
+import NetmobDC from '../icons/netmob-dc'
 
 export default function Navbar({props}:{props?:React.HTMLProps<HTMLElement>}) {
   const style = cn("flex fixed top-0 w-screen z-50", props?.className)
   return (
     <header className={style}>
-      <div className="container mx-auto max-w-screen-lg flex justify-center gap-5  text-lg font-normal mt-3 py-2 bg-slate-50 rounded-xl shadow-lg text-slate-600">
-        <div>Conference</div>
+      <div className="container mx-auto max-w-screen-lg flex justify-center items-center gap-5  text-lg font-normal mt-3 py-2 bg-slate-900 rounded-xl shadow-lg text-slate-50">
+        <NetmobDC className="w-40 text-wihite" />
+        <div className='ml-20'>Conference</div>
         <div>When & Where</div>
         <div>Program</div>
         <div>Registration</div>

@@ -12,6 +12,11 @@ const config: Config = {
         sans: ['var(--font-geist-sans)'],
         atrament: ['var(--font-atrament)'],
       },
+      colors: {
+        'indigo-11': "#9EB1FF",
+        'indigo-12': "#D6E1FF",
+        'red-12': "#FFD1D9",
+      },
     },
   },
   plugins: [],
