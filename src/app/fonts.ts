@@ -1,7 +1,7 @@
 import localFont from 'next/font/local'
  
 export const Atrament = localFont({
-  variable: '--font-attrament',
+  variable: '--font-atrament',
   src: [
     {
       path: '../../public/fonts/Atrament/Atrament-Light.otf',
