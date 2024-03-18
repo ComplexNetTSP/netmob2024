@@ -18,7 +18,6 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
         <div>Program</div>
         <div>Registration</div>
         <div>Organizer</div>
-        <div>Contact</div>
       </div>
     </header>
   )
