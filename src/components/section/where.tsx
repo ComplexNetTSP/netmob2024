@@ -10,7 +10,7 @@ export default function Where(props: HTMLProps<HTMLDivElement>) {
   return (
     <div className={cn('bg-slate-50', className)} {...rest}>
       <div className='pt-20 pb-10 container mx-auto max-w-screen-lg'>
-        <div id='where-title' className='flex justify-center text-4xl font-bold'>When and Where</div>
+        <div id='where-title' className='flex justify-center text-6xl italic font-atrament text-red-900'>When and Where</div>
         <div className='grid grid-cols-2 gap-6 mt-10'>
           
           <div id='where-main-section'>

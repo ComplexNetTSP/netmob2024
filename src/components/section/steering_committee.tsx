@@ -6,7 +6,7 @@ export default function SteeringCommittee() {
   return (
     <div id="steering_committee" className='bg-slate-50'>
       <div className='pt-20 container mx-auto max-w-screen-lg'>
-        <div className='flex justify-center text-4xl font-bold'>Steering Committee</div>
+        <div className='flex justify-center text-6xl italic font-atrament text-red-900'>Steering Committee</div>
 
         {/* First line */}
         <div className='mt-20 flex gap-12 justify-center'>

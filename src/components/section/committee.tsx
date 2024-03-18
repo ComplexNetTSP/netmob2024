@@ -4,7 +4,7 @@ export default function Committee() {
   return (
     <div id="committee" className='bg-slate-50'>
       <div className='py-20 container mx-auto max-w-screen-lg'>
-        <div className='flex justify-center text-4xl font-bold'>Program Committee</div>
+        <div className='flex justify-center text-6xl font-atrament italic text-red-900'>Program Committee</div>
 
         <ul className='mt-10 grid grid-cols-2 gap-x-6 gap-y-1'>
           <li>Albert Ali Salah, Utrecht University, The Netherlands</li>
