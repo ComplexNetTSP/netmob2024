@@ -1,8 +1,11 @@
 import React from 'react'
+import type { HTMLProps } from "react";
+import { cn } from '@/lib/utils';
 
-export default function Conference() {
+export default function Conference(props: HTMLProps<HTMLDivElement>) {
+  const { className, ...rest } = props;
   return (
-    <div className='bg-slate-50'>
+    <div className={cn('bg-slate-50', className)} {...rest}>
       <div className='pt-20 container mx-auto max-w-screen-lg'>
         <div id="conference-title" className='flex justify-center text-4xl font-bold'>Main Conference</div>
 
