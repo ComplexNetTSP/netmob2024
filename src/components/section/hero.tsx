@@ -1,4 +1,5 @@
 import React from 'react'
+import HeroButton from '@/components/ui/hero-button'
 
 export default function Hero() {
   return (
@@ -16,10 +17,7 @@ export default function Hero() {
               <div className='text-8xl font-light italic font-atrament text-slate-50'>NetMob 2024</div>
               <div className='text-4xl text-slate-50 font-light italic font-atrament pt-2'>Washington DC, 7-10 Oct 2024</div>
               <div className='pt-6 text-xl text-slate-50'>NetMob is the primary conference on the analysis of mobile phone datasets in social, urban, societal and industrial problems.</div>
-
-              <button className="mt-10 bg-transparent text-slate-50 font-semibold py-2 border border-slate-50 rounded w-60">
-                More about the conference
-              </button>
+              <HeroButton />
             </div>
             
           </div>
