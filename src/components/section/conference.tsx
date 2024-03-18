@@ -37,7 +37,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
         <div id='main-conference' className='pt-10 flex text-4xl font-atrament'>Data Challenge</div>
         
         <div className='pt-5'>
-        Colocated with NetMob 2023, we are launching the NetMob 2023 Data Challenge. The challenge aims at deriving new knowledge from the analysis, characterization, modelling and cross-correlation of an original high-resolution dataset describing mobile service usage in multiple regions of France.
+        Colocated with NetMob 2024, we are launching the NetMob 2024 Data Challenge. The challenge aims at deriving new knowledge from the analysis, characterization, modelling and cross-correlation of an original high-resolution dataset describing mobile service usage in multiple regions of France.
         </div>
 
         <div className='grid grid-cols-2 gap-10'>
