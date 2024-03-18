@@ -14,9 +14,9 @@ export default function Home() {
       {/* Hero */}
       <Hero />
       {/* Conference */}
-      <Conference />
+      <Conference id="conference" />
       {/* Where and When*/}
-      <Where />
+      <Where id="where" />
       {/* SteeringCommittee */}
       <SteeringCommittee />
       {/* Committee */}

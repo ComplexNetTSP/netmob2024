@@ -1,11 +1,14 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
+import type { HTMLProps } from "react";
+import { cn } from '@/lib/utils';
 import Gmap from '@/components/ui/gmap'
 
-export default function Where() {
+export default function Where(props: HTMLProps<HTMLDivElement>) {
+  const {className, ...rest} = props;
   return (
-    <div className='bg-slate-50'>
+    <div className={cn('bg-slate-50', className)} {...rest}>
       <div className='pt-20 pb-10 container mx-auto max-w-screen-lg'>
         <div id='where-title' className='flex justify-center text-4xl font-bold'>When and Where</div>
         <div className='grid grid-cols-2 gap-6 mt-10'>
