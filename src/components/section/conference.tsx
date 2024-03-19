@@ -10,7 +10,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
         <div id="conference-title" className='flex justify-center text-6xl italic font-atrament text-red-900'>Conference</div>
         <div id='main-conference' className='pt-10 flex text-4xl font-atrament'>Main Event</div>
         <div className='pt-5'>
-          NetMob 2023 runs on a flexible format: a single track of short contributed talks, a simplified submission procedure, and the possibility to present early results or work submitted elsewhere. We welcome all contributions that deal with the analysis of mobile phone datasets. This includes but is not limited to analyses of CDRs, xDRs, mobile location data, Wi-Fi usage, mobile app data, social media content, etc.
+          NetMob 2024 runs on a flexible format: a single track of short contributed talks, a simplified submission procedure, and the possibility to present early results or work submitted elsewhere. We welcome all contributions that deal with the analysis of mobile phone datasets. This includes but is not limited to analyses of CDRs, xDRs, mobile location data, Wi-Fi usage, mobile app data, social media content, etc.
         </div>
 
         <div className='grid grid-cols-2 gap-10'>
