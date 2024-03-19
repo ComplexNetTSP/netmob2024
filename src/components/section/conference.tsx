@@ -26,9 +26,9 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           <div id="important-date">
             <div className='pt-5 pb-3 text-xl font-medium'>Important dates</div>
             <ul className='flex flex-col space-y-1'>
-              <li><span className='font-medium'>Submission website opening</span>: TBA</li>
-              <li><span className='font-medium'>Submission deadline</span>: TBA</li>
-              <li><span className='font-medium'>Notification of acceptance</span>: TBA</li>
+              <li><span className='font-medium'>Submission website opening</span>: June 1, 2024</li>
+              <li><span className='font-medium'>Submission deadline</span>: Jun 30, 2024</li>
+              <li><span className='font-medium'>Notification of acceptance</span>: July 21, 2024</li>
               <li><span className='font-medium'>Conference</span>: October 7-9, 2024</li>
             </ul>
           </div>
@@ -54,12 +54,13 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           <div id="challenge-importante-date">
             <div className='pt-5 pb-3 text-xl font-medium'>Importante dates</div>
             <ul className='flex flex-col space-y-1'>
-              <!--<li><span className='font-medium'>Challenge launch</span>: TBA</li> -->
+              <li><span className='font-medium'>To be announced</span></li>
+              <!--<li><span className='font-medium'>Challenge launch</span>: TBA</li> 
               <li><span className='font-medium'>Abstract submission opening/span</span>: June 1, 2024</li>
               <li><span className='font-medium'>Abstract submission deadline</span>: June 30, 2024</li>
               <li><span className='font-medium'>Notification of acceptance</span>: July 21, 2024</li>
               <li><span className='font-medium'>Final report deadline</span>: Septembre 22, 2024</li>
-              <li><span className='font-medium'>Presentation in the conference</span>: October 6-9, 2024</li>
+              <li><span className='font-medium'>Presentation in the conference</span>: October 6-9, 2024</li>-->
             </ul>
           </div>
         </div>
