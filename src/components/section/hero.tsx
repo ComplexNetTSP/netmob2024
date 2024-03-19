@@ -9,7 +9,7 @@ export default function Hero() {
     <>
       <div className="relative h-screen flex items-center z-0 overflow-hidden">
         {/* Video background (add loop or not) */}
-        <video loop muted playsInline autoPlay disablePictureInPicture className="absolute inset-0 z-0 w-auto min-w-full min-h-full max-w-none">
+        <video loop muted playsInline autoPlay disablePictureInPicture className="absolute top-0 z-0 w-auto min-w-full min-h-full max-w-none">
           <source src={ screenSize.width! < 768 ? "/video/background-sd.mp4" : "/video/background-hd.mp4"} type="video/mp4" />
         </video>
         <div  className="absolute inset-0 bg-black opacity-50 z-10"></div> 
