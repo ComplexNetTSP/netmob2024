@@ -15,7 +15,7 @@ export default function Hero() {
           <div id="hero-title" className='z-20 px-10 py-10 rounded-lg'>
             <div id="hero-text">
               <div className='text-8xl font-light italic font-atrament text-slate-50'>NetMob 2024</div>
-              <div className='text-4xl text-slate-50 font-light italic font-atrament pt-2'>Washington DC, 7-10 Oct 2024</div>
+              <div className='text-4xl text-slate-50 font-light italic font-atrament pt-2'>Washington DC, 7-9 Oct 2024</div>
               <div className='pt-6 text-xl text-slate-50'>NetMob is the primary conference on the analysis of mobile phone datasets in social, urban, societal and industrial problems.</div>
               <HeroButton />
             </div>
