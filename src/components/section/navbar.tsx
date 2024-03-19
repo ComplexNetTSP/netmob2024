@@ -17,7 +17,7 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
         <button onClick={() => handleClick("where")}>When & Where</button>
         <div>Program</div>
         <div>Registration</div>
-        <div>Organizer</div>
+        <div>Organizers</div>
       </div>
     </header>
   )
