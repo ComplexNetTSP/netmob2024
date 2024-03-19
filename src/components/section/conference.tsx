@@ -55,7 +55,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
             <div className='pt-5 pb-3 text-xl font-medium'>Importante dates</div>
             <ul className='flex flex-col space-y-1'>
               <li><span className='font-medium'>Challenge launch</span>: TBA</li> 
-              <li><span className='font-medium'>Abstract submission opening/span</span>: TBA</li>
+              <li><span className='font-medium'>Abstract submission opening</span>: TBA</li>
               <li><span className='font-medium'>Abstract submission deadline</span>: TBA</li>
               <li><span className='font-medium'>Notification of acceptance</span>: TBA</li>
               <li><span className='font-medium'>Final report deadline</span>: TBA</li>
