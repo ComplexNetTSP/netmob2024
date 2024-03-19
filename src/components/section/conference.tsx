@@ -10,7 +10,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
         <div id="conference-title" className='flex justify-center text-6xl italic font-atrament text-red-900'>Conference</div>
         <div id='main-conference' className='pt-10 flex text-4xl font-atrament'>Main Event</div>
         <div className='pt-5'>
-          NetMob 2023 runs on a flexible format: a single track of short contributed talks, a simplified submission procedure, and the possibility to present early results or work submitted elsewhere. We welcome all contributions that deal with the analysis of mobile phone datasets. This includes but is not limited to analyses of CDRs, xDRs, mobile location data, Wi-Fi usage, mobile app data, social media content, etc.
+          NetMob 2024 runs on a flexible format: a single track of short contributed talks, a simplified submission procedure, and the possibility to present early results or work submitted elsewhere. We welcome all contributions that deal with the analysis of mobile phone datasets. This includes but is not limited to analyses of CDRs, xDRs, mobile location data, Wi-Fi usage, mobile app data, social media content, etc.
         </div>
 
         <div className='grid grid-cols-2 gap-10'>
@@ -26,10 +26,10 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           <div id="important-date">
             <div className='pt-5 pb-3 text-xl font-medium'>Important dates</div>
             <ul className='flex flex-col space-y-1'>
-              <li><span className='font-medium'>Submission website opening</span>: TBA</li>
-              <li><span className='font-medium'>Submission deadline</span>: TBA</li>
-              <li><span className='font-medium'>Notification of acceptance</span>: TBA</li>
-              <li><span className='font-medium'>Conference</span>: October 7-10, 2024</li>
+              <li><span className='font-medium'>Submission website opening</span>: June 1, 2024</li>
+              <li><span className='font-medium'>Submission deadline</span>: Jun 30, 2024</li>
+              <li><span className='font-medium'>Notification of acceptance</span>: July 21, 2024</li>
+              <li><span className='font-medium'>Conference</span>: October 7-9, 2024</li>
             </ul>
           </div>
         </div>
@@ -44,21 +44,23 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           <div id="challenge-format">
             <div className='pt-5 pb-3 text-xl font-medium'>Challenge format</div>
             <ul className='flex flex-col space-y-1'>
-              <li>Prospective participants shall apply to the challenge in order to get access to the dataset. Instructions are available at the challenge webpage.</li>
+              <li>Stay tunned</li>
+              <!--<li>Prospective participants shall apply to the challenge in order to get access to the dataset. Instructions are available at the challenge webpage.</li>
               <li>Admitted participants shall submit two-page extended abstracts in PDF format including title, author(s), affiliation(s) and email address(es) on the first page, describing their preliminary results from the dataset analysis.</li>
-              <li>Selected participants will be invited to submit by XXXX a final report consisting of: a complete document without page limits that will be kept confidential, and used to select the challenge awardees as well as to take a final decision on whether the work will be presented at the conference as a talk or a poster; and, 2-page summary of the work that will appear in the public NetMob 2024 Book of Abstracts.</li>
+              <li>Selected participants will be invited to submit by XXXX a final report consisting of: a complete document without page limits that will be kept confidential, and used to select the challenge awardees as well as to take a final decision on whether the work will be presented at the conference as a talk or a poster; and, 2-page summary of the work that will appear in the public NetMob 2024 Book of Abstracts.</li> -->
             </ul>
           </div>
 
           <div id="challenge-importante-date">
             <div className='pt-5 pb-3 text-xl font-medium'>Importante dates</div>
             <ul className='flex flex-col space-y-1'>
-              <li><span className='font-medium'>Challenge launch</span>: TBA</li>
-              <li><span className='font-medium'>Abstract submission opening/span</span>: TBA</li>
-              <li><span className='font-medium'>Abstract submission deadline</span>: TBA</li>
-              <li><span className='font-medium'>Notification of acceptance</span>: TBA</li>
-              <li><span className='font-medium'>Final report deadline</span>: TBA</li>
-              <li><span className='font-medium'>Presentation in the conference</span>: TBA</li>
+              <li><span className='font-medium'>To be announced</span></li>
+              <!--<li><span className='font-medium'>Challenge launch</span>: TBA</li> 
+              <li><span className='font-medium'>Abstract submission opening/span</span>: June 1, 2024</li>
+              <li><span className='font-medium'>Abstract submission deadline</span>: June 30, 2024</li>
+              <li><span className='font-medium'>Notification of acceptance</span>: July 21, 2024</li>
+              <li><span className='font-medium'>Final report deadline</span>: Septembre 22, 2024</li>
+              <li><span className='font-medium'>Presentation in the conference</span>: October 6-9, 2024</li>-->
             </ul>
           </div>
         </div>
