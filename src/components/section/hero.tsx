@@ -5,12 +5,21 @@ import useScreenSize from '@/lib/useScreenSize';
 
 export default function Hero() {
   const screenSize = useScreenSize();
+  const videoSource = (windowSize:number|undefined) => {
+    if (windowSize! <= 320) {
+      return "/video/background-xs.webm";
+    } else if (windowSize! <= 640) {
+      return "/video/background-sd.webm";
+    }
+    return "/video/background-hd.webm";
+  }
+
   return (
     <>
       <div className="relative h-screen flex items-center z-0 overflow-hidden">
         {/* Video background (add loop or not) */}
         <video loop muted playsInline autoPlay disablePictureInPicture className="absolute top-0 z-0 w-auto min-w-full min-h-full max-w-none">
-          <source src={ screenSize.width! < 768 ? "/video/background-sd.mp4" : "/video/background-hd.mp4"} type="video/mp4" />
+          <source src={ videoSource(screenSize.width) } type="video/webm" />
         </video>
         <div  className="absolute inset-0 bg-black opacity-50 z-10"></div> 
         <div className='container mx-auto max-w-screen-lg grid grid-cols-2'>
