@@ -4,6 +4,7 @@ import Image from 'next/image'
 import type { HTMLProps } from "react";
 import { cn } from '@/lib/utils';
 import Gmap from '@/components/ui/gmap'
+import Link from 'next/link';
 
 export default function Where(props: HTMLProps<HTMLDivElement>) {
   const {className, ...rest} = props;
@@ -14,12 +15,11 @@ export default function Where(props: HTMLProps<HTMLDivElement>) {
         <div className='grid grid-cols-2 gap-6 mt-10'>
           
           <div id='where-main-section'>
-            NetMob 2024 will take place on 7-9 Oct 2024 at the Auditorium of the Worldbank headquarter, located in Washington, DC. U.S.A.
-            <ul className='flex flex-col space-y-1'>
-              <li><span className='font-medium'>Adresse</span>: 1818 H Street, Washington, DC 20433 U.S.A. </li>
-              <li><span className='font-medium'>Worlk Bank</span>: <a href="https://www.worldbank.org/content/dam/meetings/external/springmeeting/SM24%20Campus%20Map-01.jpg">Campus Map</a> </li>
-              <li><span className='font-medium'>Preston Auditorium</span>: <a href="https://www.worldbank.org/content/dam/annualweb/rooms/MC-Preston-01.jpg">Map</a></li>
+            NetMob 2024 will take place on 7-9 Oct 2024 at the <Link className='underline decoration-red-400' href="https://www.worldbank.org/content/dam/annualweb/rooms/MC-Preston-01.jpg">Preston Auditorium</Link> located inside <Link className='underline decoration-red-400' href="https://www.worldbank.org/content/dam/meetings/external/springmeeting/SM24%20Campus%20Map-01.jpg">The World Bank Group MC building</Link> in Washington, DC. U.S.A.
+            <ul className='flex flex-col mt-5 space-y-3'>
+              <li><span className='font-medium'>The World Bank Group MC building visitor entrance</span>: <Link className='underline decoration-red-400' href="https://www.google.fr/maps/place/752+18th+St+NW,+Washington,+DC+20006,+%C3%89tats-Unis/@38.899122,-77.0430488,19z/data=!3m1!4b1!4m6!3m5!1s0x89b7b7b220d64815:0xf49c452c52ca58f4!8m2!3d38.899121!4d-77.0418324!16s%2Fg%2F11y1f_426r?entry=ttu">752 18th St NW, Washington, DC 20006, USA</Link></li>
               <li><span className='font-medium'>Conference dates</span>: October 7-9, 2024</li>
+              <li><span className='font-medium'>Nearby metro stations</span>: <Link className='underline decoration-red-400' href="https://washington.org/navigating-dc-metro">Farragut West on the blue, orange and silver line</Link></li>
             </ul>
           </div>
 
