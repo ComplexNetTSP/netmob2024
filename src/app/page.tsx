@@ -5,6 +5,7 @@ import Committee from '@/components/section/committee';
 import SteeringCommittee from '@/components/section/steering_committee';
 import Where from '@/components/section/where';
 import Footer from '@/components/section/footer';
+import Sponsors from '@/components/section/sponsors';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       {/* Committee */}
       <Committee />
       {/* Main conference */}
+      <Sponsors /> 
       {/* Footer */}
       <Footer />
     </main>
