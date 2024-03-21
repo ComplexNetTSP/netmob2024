@@ -20,7 +20,7 @@ export default function SteeringCommittee() {
                 fill={true}
               />
             </div>
-            <Link href="https://perso.uclouvain.be/vincent.blondel/">Vincent Blondel</Link>
+            <Link href="https://perso.uclouvain.be/vincent.blondel/" className='underline decoration-red-400'>Vincent Blondel</Link>
             <p>University of Louvain</p>
           </div>
 
@@ -34,7 +34,7 @@ export default function SteeringCommittee() {
                 fill={true}
               />
             </div>
-            <Link href="">Leo Ferres</Link>
+            <Link href="https://twitter.com/leoferres" className='underline decoration-red-400'>Leo Ferres</Link>
             <p>IDSUDD, ISI Foundation & Telefónica</p>
           </div>
 
@@ -48,7 +48,7 @@ export default function SteeringCommittee() {
                 fill={true}
               />
             </div>
-            <Link href="https://networks.imdea.org/team/imdea-networks-team/people/marco-fiore/">Marco Fiore</Link>
+            <Link href="https://networks.imdea.org/team/imdea-networks-team/people/marco-fiore/" className='underline decoration-red-400'>Marco Fiore</Link>
             <p>IMDEA Networks Institute & Net AI</p>
           </div>
 
@@ -62,7 +62,7 @@ export default function SteeringCommittee() {
                 fill={true}
               />
             </div>
-            <Link href="https://vanessafriasmartinez.umiacs.io/">Vanessa Frias-Martinez</Link>
+            <Link href="https://vanessafriasmartinez.umiacs.io/" className='underline decoration-red-400'>Vanessa Frias-Martinez</Link>
             <p>University of Maryland</p>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function SteeringCommittee() {
                 fill={true}
               />
             </div>
-            <Link href="https://www.maths.ox.ac.uk/people/renaud.lambiotte">Renaud Lambiotte</Link>
+            <Link href="https://www.maths.ox.ac.uk/people/renaud.lambiotte" className='underline decoration-red-400'>Renaud Lambiotte</Link>
             <p>University of Oxford</p>
           </div>
 
@@ -93,7 +93,7 @@ export default function SteeringCommittee() {
                 fill={true}
               />
             </div>
-            <Link href="http://estebanmoro.org/">Esteban Moro Egido</Link>
+            <Link href="http://estebanmoro.org/" className='underline decoration-red-400'>Esteban Moro Egido</Link>
             <p>MIT & UC3M</p>
           </div>
 
@@ -107,7 +107,7 @@ export default function SteeringCommittee() {
                 fill={true}
               />
             </div>
-            <Link href="https://idss.mit.edu/staff/alex-sandy-pentland/">Alex (Sandy) Pentland</Link>
+            <Link href="https://idss.mit.edu/staff/alex-sandy-pentland/" className='underline decoration-red-400'>Alex (Sandy) Pentland</Link>
             <p>MIT</p>
           </div>
         </div>
