@@ -6,7 +6,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
   const { className, ...rest } = props;
   return (
     <div className={cn('bg-slate-50', className)} {...rest}>
-      <div className='pt-20 container mx-auto max-w-screen-lg'>
+      <div className='pt-20 container mx-auto max-w-screen-lg sm:max-w-screen-sm'>
         <div id="conference-title" className='flex justify-center text-6xl italic font-atrament text-red-900'>Conference</div>
         <div id='main-conference' className='pt-10 flex text-4xl font-atrament'>Main Event</div>
         <div className='pt-5'>
