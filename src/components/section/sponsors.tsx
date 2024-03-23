@@ -10,7 +10,7 @@ export default function Sponsors() {
           {/* <Wb className='w-20 h-20' /> */}
           <Link href="https://www.worldbank.org/en/research/dime"><Image src='/img/sponsors/dime.png' alt='DIME program logo' width={250} height={60} /></Link>
           <Link href="https://www.worldbank.org/en/home"><Image src='/img/sponsors/wb.png' alt='World Bank logo' width={250} height={60} /></Link>
-          <Link href="https://www.telecom-sudparis.eu/en/"><Image src='/img/sponsors/tsp.png' alt='World Bank logo' width={140} height={60} /></Link>
+          <Link href="https://www.telecom-sudparis.eu/en/"><Image src='/img/sponsors/tsp.webp' alt='Telecom SudParis logo' width={140} height={60} /></Link>
           <Link href="https://www.worldbank.org/en/programs/global-data-facility"><Image src='/img/sponsors/gdf.webp' alt='Golbal Data Facility program of World Bank logo' width={250} height={60} /></Link>
           <Link href="https://www.worldbank.org/en/home"><Image src='/img/sponsors/maece.webp' alt='World Bank logo' width={300} height={60} /></Link>
         </div>
