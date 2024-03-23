@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function SteeringCommittee() {
   return (
     <div id="steering_committee" className='bg-slate-50'>
-      <div className='pt-20 container mx-auto max-w-xs sm:max-w-xl lg:max-w-screen-lg'>
+      <div className='pt-20 container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg'>
         <div className='flex justify-center text-5xl lg:text-8xl italic font-atrament text-red-900'>Steering Committee</div>
 
         {/* First line */}

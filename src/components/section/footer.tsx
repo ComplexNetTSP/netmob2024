@@ -7,8 +7,8 @@ import ThinEnvelope from '../icons/thin-envelope'
 export default function Footer() {
   return (
     <div className='py-20 w-full bg-slate-900'>
-      <div className='container mx-auto max-w-xs sm:max-w-xl lg:max-w-screen-lg'>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8'>
+      <div className='container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8'>
           {/* col 1 link to the past Netmob conference*/}
           <div className='text-white flex flex-col gap-2'>
             <div className='uppercase font-medium mb-2'>Past Edition</div>
