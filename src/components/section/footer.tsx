@@ -50,7 +50,7 @@ export default function Footer() {
             <Link href='mailto:contact@netmob.com' className='flex items-center'><ThinEnvelope className='w-6 h-6 text-white' /><span className='ml-3'>contact@netmob.com</span></Link>
             <div className='uppercase font-medium mb-2 mt-3 pt-3 border-t border-white'>Follow us</div>
             <div className='flex'>
-              <Link href="https://twitter.com/netmob23" className='flex items-center'>
+              <Link href="https://twitter.com/netmob2024" className='flex items-center'>
                 <button type="button" className="flex justify-center items-center bg-red-700 rounded-full w-7 h-7"><XLogo className='w-3 h-3 text-white' /></button>
               </Link>
               <Link href="https://twitter.com/netmob23" className='ml-3 flex items-center'>
