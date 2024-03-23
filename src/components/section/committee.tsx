@@ -3,7 +3,7 @@ import React from 'react'
 export default function Committee() {
   return (
     <div id="committee" className='bg-slate-50'>
-      <div className='py-20 container mx-auto max-w-xs sm:max-w-xl lg:max-w-screen-lg'>
+      <div className='py-20 container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg'>
         <div className='flex justify-center text-5xl lg:text-8xl font-atrament italic text-red-900'>Program Committee</div>
 
         <div className='mt-10 grid grid-cols-1 lg:grid-cols-2 gap-y-2 gap-x-10'>

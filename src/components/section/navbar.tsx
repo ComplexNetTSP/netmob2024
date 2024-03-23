@@ -31,7 +31,7 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
       {/* Mavbar */}
       <div className="container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg flex justify-between items-center gap-5 text-lg font-normal mt-3 py-2 rounded-xl shadow-lg text-slate-50">
         <NetmobDC className="w-40 text-wihite" />
-        <div id="primary-nav" className='hidden lg:flex gap-4'>
+        <div id="primary-nav" className='hidden xl:flex gap-4'>
           <button className='ml-20' onClick={() => handleClick("conference")}>Conference</button>
           <button onClick={() => handleClick("where")}>When & Where</button>
           <div>Program</div>
@@ -39,7 +39,7 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
           <div>Organizers</div>
         </div>
         {/* Hamburger menu */}
-        <button className='ml-auto text-white flex items-center lg:hidden' onClick={handleMobileMenu}>
+        <button className='ml-auto text-white flex items-center xl:hidden' onClick={handleMobileMenu}>
           <RxHamburgerMenu size="1.7rem" />
         </button>
       </div>

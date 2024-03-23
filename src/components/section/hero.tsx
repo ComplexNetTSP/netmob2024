@@ -26,11 +26,11 @@ export default function Hero() {
           </video>
         }
         <div  className="absolute inset-0 bg-black opacity-50 z-10"></div> 
-        <div className='container mx-auto max-w-xs sm:max-w-xl lg:max-w-screen-lg grid grid-cols-1 lg:grid-cols-2 justify-center'>
+        <div className='container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg grid grid-cols-1 lg:grid-cols-2 justify-center'>
           <div id="hero-title" className='z-20 px-10 py-10 lg:col-start-2'>
             <div id="hero-text">
-              <div className='text-6xl sm:text-8xl font-light italic font-atrament text-slate-50'>NetMob 2024</div>
-              <div className='text-3xl sm:text-5xl text-slate-50 font-light italic font-atrament pt-2'>Washington DC, 7-9 Oct 2024</div>
+              <div className='text-6xl sm:text-8xl lg:text-6xl xl:text-8xl font-light italic font-atrament text-slate-50'>NetMob 2024</div>
+              <div className='text-3xl sm:text-5xl lg:text-3xl xl:text-5xl text-slate-50 font-light italic font-atrament pt-2'>Washington DC, 7-9 Oct 2024</div>
               <div className='pt-6 text-xl text-slate-50'>NetMob is the primary conference on the analysis of mobile phone datasets in social, urban, societal and industrial problems.</div>
               <HeroButton />
             </div>
