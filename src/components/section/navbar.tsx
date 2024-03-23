@@ -29,7 +29,7 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
   return (
     <nav className={style} {...rest}>
       {/* Mavbar */}
-      <div className="container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-md xl:max-w-screen-lg flex justify-between items-center gap-5 text-lg font-normal mt-3 py-2 rounded-xl shadow-lg text-slate-50">
+      <div className="container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg flex justify-between items-center gap-5 text-lg font-normal mt-3 py-2 rounded-xl shadow-lg text-slate-50">
         <NetmobDC className="w-40 text-wihite" />
         <div id="primary-nav" className='hidden lg:flex gap-4'>
           <button className='ml-20' onClick={() => handleClick("conference")}>Conference</button>
