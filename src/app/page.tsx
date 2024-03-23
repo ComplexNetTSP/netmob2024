@@ -6,6 +6,7 @@ import SteeringCommittee from '@/components/section/steering_committee';
 import Where from '@/components/section/where';
 import Footer from '@/components/section/footer';
 import Sponsors from '@/components/section/sponsors';
+import Register from '@/components/section/register';
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       <Conference id="conference" />
       {/* Where and When*/}
       <Where id="where" />
+      {/* Register */}
+      <Register />
       {/* SteeringCommittee */}
       <SteeringCommittee />
       {/* Committee */}
