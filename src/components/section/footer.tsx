@@ -53,7 +53,7 @@ export default function Footer() {
               <Link href="https://twitter.com/netmob2024" className='flex items-center'>
                 <button type="button" className="flex justify-center items-center bg-red-700 rounded-full w-7 h-7"><XLogo className='w-3 h-3 text-white' /></button>
               </Link>
-              <Link href="https://twitter.com/netmob23" className='ml-3 flex items-center'>
+              <Link href="https://bsky.app/profile/netmob2024.bsky.social" className='ml-3 flex items-center'>
                 <button type="button" className="flex justify-center items-center bg-red-700 rounded-full w-7 h-7"> <Bluesky className='w-4 h-4 text-white' /></button>
               </Link>
             </div>

@@ -34,8 +34,8 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
         <div id="primary-nav" className='hidden xl:flex gap-4'>
           <button className='ml-20' onClick={() => handleClick("conference")}>Conference</button>
           <button onClick={() => handleClick("where")}>When & Where</button>
-          <div>Program</div>
-          <div>Registration</div>
+          {/* <div>Program</div> */}
+          <button onClick={() => handleClick("registration")}>Registration</button>
           <div>Organizers</div>
         </div>
         {/* Hamburger menu */}
@@ -48,7 +48,7 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
         <button className='flex justify-normal' onClick={() => handleClick("conference")}>Conference</button>
         <button className='flex justify-normal' onClick={() => handleClick("where")}>When & Where</button>
         <button className='flex justify-normal'>Program</button>
-        <button className='flex justify-normal'>Registration</button>
+        <button className='flex justify-normal' onClick={() => handleClick("registration")}>Registration</button>
         <button className='flex justify-normal'>Organizers</button>
       </div>
     </nav>
