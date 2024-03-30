@@ -7,6 +7,7 @@ import Where from '@/components/section/where';
 import Footer from '@/components/section/footer';
 import Sponsors from '@/components/section/sponsors';
 import Register from '@/components/section/register';
+import Organizers from '@/components/section/organizers';
 
 export default function Home() {
   return (
@@ -21,10 +22,12 @@ export default function Home() {
       <Where id="where" />
       {/* Register */}
       <Register id='registration'/>
-      {/* SteeringCommittee */}
+      {/* Steering Committee */}
       <SteeringCommittee />
       {/* Committee */}
       <Committee />
+       {/* Local Organizers */}
+      <Organizers />
       {/* Main conference */}
       <Sponsors /> 
       {/* Footer */}
