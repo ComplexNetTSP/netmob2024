@@ -29,7 +29,7 @@ export default function Hero() {
         <div className='container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg grid grid-cols-1 lg:grid-cols-2 justify-center'>
           <div id="hero-title" className='z-20 px-10 py-10 lg:col-start-2'>
             <div id="hero-text">
-              <div className='text-6xl sm:text-8xl lg:text-6xl xl:text-6xl font-light italic font-atrament text-slate-50'>NetMob 2024</div>
+              <div className='text-6xl sm:text-8xl lg:text-6xl xl:text-9xl font-light italic font-atrament text-slate-50 flex flex-col'><div>NetMob</div><div>2024</div></div>
               <div className='text-3xl sm:text-5xl lg:text-3xl xl:text-3xl text-slate-50 font-light italic font-atrament pt-2'>Washington DC, 7-9 Oct 2024</div>
               <div className='pt-6 text-xl text-slate-50'>NetMob is the primary conference on the analysis of mobile phone datasets in social, urban, societal and industrial problems.</div>
               <HeroButton />
