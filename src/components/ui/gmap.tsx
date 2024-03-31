@@ -17,10 +17,10 @@ export default function Gmap({className, ...props}:React.HTMLAttributes<HTMLDivE
           </div>
           <div>
             <Link href="https://www.google.com/maps/place/752+18th+St+NW,+Washington,+DC+20006,+%C3%89tats-Unis/@38.8991251,-77.0444073,17z/data=!3m1!4b1!4m6!3m5!1s0x89b7b7b220d64815:0xf49c452c52ca58f4!8m2!3d38.899121!4d-77.0418324!16s%2Fg%2F11y1f_426r?entry=ttu" 
-              className='flex flex-col justify-center items-center'
+              className='flex flex-col justify-center items-center text-red-500 hover:text-red-600'
             >
-              <RiDirectionFill className='text-red-500' size={20} />
-              <div className='text-xs text-red-500'>Direction</div>
+              <RiDirectionFill size={20} />
+              <div className='text-xs'>Direction</div>
             </Link>
           </div>
         </div>
