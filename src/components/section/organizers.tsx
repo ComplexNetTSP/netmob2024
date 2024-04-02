@@ -1,10 +1,11 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-
-export default function Organizers() {
+import type { HTMLProps } from "react";
+import { cn } from '@/lib/utils';
+export default function Organizers({ className, ...props }: HTMLProps<HTMLDivElement>) {
   return (
-    <div id="steering_committee" className='bg-slate-50'>
+    <div className={cn('bg-slate-50', className)} {...props}>
       <div className='pt-20 pb-20 container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg'>
         <div className='flex justify-center text-5xl lg:text-8xl italic font-atrament text-red-900'>Local Organizers</div>
 

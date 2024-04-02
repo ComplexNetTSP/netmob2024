@@ -36,7 +36,7 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
           <button onClick={() => handleClick("where")}>When & Where</button>
           {/* Registration */}
           {/* <button onClick={() => handleClick("registration")}>Registration</button> */}
-          <div>Organizers</div>
+          <div onClick={() => handleClick("organizers")}>Organizers</div>
         </div>
         {/* Hamburger menu */}
         <button className='ml-auto text-white flex items-center xl:hidden' onClick={handleMobileMenu}>
@@ -47,9 +47,9 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
       <div id="nav-mobile-menu" className='hidden mx-4 mt-8 mb-5 flex-col text-white text-xl space-y-3'>
         <button className='flex justify-normal' onClick={() => handleClick("conference")}>Conference</button>
         <button className='flex justify-normal' onClick={() => handleClick("where")}>When & Where</button>
-        <button className='flex justify-normal'>Program</button>
-        <button className='flex justify-normal' onClick={() => handleClick("registration")}>Registration</button>
-        <button className='flex justify-normal'>Organizers</button>
+        {/* <button className='flex justify-normal'>Program</button> */}
+        {/* <button className='flex justify-normal' onClick={() => handleClick("registration")}>Registration</button> */}
+        <button onClick={() => handleClick("organizers")} className='flex justify-normal'>Organizers</button>
       </div>
     </nav>
   )

@@ -21,7 +21,7 @@ export default function Hero() {
       <div className="relative h-screen flex items-center z-0 overflow-hidden justify-center">
         {/* Video background (add loop or not) */}
         {width &&
-          <video loop muted playsInline autoPlay disablePictureInPicture className="absolute z-0 top-0 w-auto min-w-full min-h-full max-w-none object-cover">
+          <video loop muted playsInline autoPlay disablePictureInPicture className="absolute blur-[2px] lg:blur-none z-0 top-0 w-auto min-w-full min-h-full max-w-none object-cover">
             <source src={`${videoSource(width)}.webm`} type="video/webm" />
             <source src={`${videoSource(width)}.mp4`} type="video/mp4" />
           </video>

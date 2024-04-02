@@ -27,7 +27,7 @@ export default function Home() {
       {/* Committee */}
       <Committee />
        {/* Local Organizers */}
-      <Organizers />
+      <Organizers id="organizers" />
       {/* Main conference */}
       <Sponsors /> 
       {/* Footer */}
