@@ -5,27 +5,28 @@ import useScreenSize from '@/lib/useScreenSize';
 
 export default function Hero() {
   const { width } = useScreenSize();
-  const videoSource = (windowSize:number|undefined) => {
+  const videoSource = (windowSize: number | undefined) => {
     console.log(windowSize);
     if (windowSize! <= 400) {
-      return "/video/background-xs.webm";
+      return "/video/background-xs";
     } else if (windowSize! <= 640) {
-      return "/video/background-sd.webm";
-    }else{
-      return "/video/background-hd.webm";
+      return "/video/background-sd";
+    } else {
+      return "/video/background-hd";
     }
   }
 
   return (
     <>
-      <div className="relative h-screen flex items-center z-0 overflow-hidden">
+      <div className="relative h-screen flex items-center z-0 overflow-hidden justify-center">
         {/* Video background (add loop or not) */}
-       
-          <video loop muted playsInline autoPlay disablePictureInPicture className="absolute z-0 inset-0 w-auto min-w-full min-h-full max-w-none">
-          { width && <source src={ videoSource(width) } type="video/webm" /> }
+        {width &&
+          <video loop muted playsInline autoPlay disablePictureInPicture className="absolute z-0 inset-0 w-auto min-w-full min-h-full max-w-none object-cover">
+            <source src={`${videoSource(width)}.webm`} type="video/webm" />
+            <source src={`${videoSource(width)}.mp4`} type="video/mp4" />
           </video>
-
-        <div  className="absolute inset-0 bg-gradient-to-b from-slate-900/10 via-slate-900/10 to-black/90 z-10"></div> 
+        }
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/10 via-slate-900/10 to-black/90 z-10"></div>
         <div className='container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg grid grid-cols-1 lg:grid-cols-2 justify-center'>
           <div id="hero-title" className='z-20 px-10 py-10 lg:col-start-2'>
             <div id="hero-text">
