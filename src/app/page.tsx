@@ -21,7 +21,7 @@ export default function Home() {
       {/* Where and When*/}
       <Where id="where" />
       {/* Register */}
-      <Register id='registration'/>
+      {/* <Register id='registration'/> */}
       {/* Steering Committee */}
       <SteeringCommittee />
       {/* Committee */}
