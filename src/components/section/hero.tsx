@@ -20,11 +20,11 @@ export default function Hero() {
     <>
       <div className="relative h-screen flex items-center z-0 overflow-hidden">
         {/* Video background (add loop or not) */}
-        { width && 
+       
           <video loop muted playsInline autoPlay disablePictureInPicture className="absolute z-0 inset-0 w-auto min-w-full min-h-full max-w-none">
-            <source src={ videoSource(width) } type="video/webm" /> 
+          { width && <source src={ videoSource(width) } type="video/webm" /> }
           </video>
-        }
+
         <div  className="absolute inset-0 bg-gradient-to-b from-slate-900/10 via-slate-900/10 to-black/90 z-10"></div> 
         <div className='container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg grid grid-cols-1 lg:grid-cols-2 justify-center'>
           <div id="hero-title" className='z-20 px-10 py-10 lg:col-start-2'>
