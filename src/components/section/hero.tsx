@@ -34,6 +34,7 @@ export default function Hero() {
               <div className='pt-6 text-xl text-slate-50'>NetMob is the primary conference on the analysis of mobile phone datasets in social, urban, societal and industrial problems.</div>
               <HeroButton />
               <div>Width: {width}</div>
+              <div>Video: {videoSource(width)}</div>
             </div>
           </div>
         </div>
