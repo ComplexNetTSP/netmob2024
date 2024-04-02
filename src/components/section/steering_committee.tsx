@@ -17,7 +17,7 @@ export default function SteeringCommittee() {
                 src="/img/steering_committee/vincent.webp"
                 alt="Vincent Blondel"
                 object-fit="cover"
-                fill={true}
+                fill={false}
               />
             </div>
             <Link href="https://perso.uclouvain.be/vincent.blondel/" className='underline text-center decoration-red-400'>Vincent Blondel</Link>

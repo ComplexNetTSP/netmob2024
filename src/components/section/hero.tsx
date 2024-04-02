@@ -33,6 +33,7 @@ export default function Hero() {
               <div className='text-3xl sm:text-5xl lg:text-3xl xl:text-3xl text-slate-50 font-light italic font-atrament pt-2'>Washington DC, 7-9 Oct 2024</div>
               <div className='pt-6 text-xl text-slate-50'>NetMob is the primary conference on the analysis of mobile phone datasets in social, urban, societal and industrial problems.</div>
               <HeroButton />
+              <div>Width: {width}</div>
             </div>
           </div>
         </div>
