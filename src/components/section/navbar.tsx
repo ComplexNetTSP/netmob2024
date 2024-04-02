@@ -34,8 +34,8 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
         <div id="primary-nav" className='hidden xl:flex gap-4'>
           <button className='ml-20' onClick={() => handleClick("conference")}>Conference</button>
           <button onClick={() => handleClick("where")}>When & Where</button>
-          {/* <div>Program</div> */}
-          <button onClick={() => handleClick("registration")}>Registration</button>
+          {/* Registration */}
+          {/* <button onClick={() => handleClick("registration")}>Registration</button> */}
           <div>Organizers</div>
         </div>
         {/* Hamburger menu */}
