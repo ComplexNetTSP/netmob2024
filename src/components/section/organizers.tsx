@@ -32,12 +32,12 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
               <Image
                 className="rounded-full border border-gray-100 shadow-lg"
                 src="/img/organisers/sveta.webp"
-                alt="Miguel Nuñez del Prado Cortez"
+                alt="Sveta Milusheva"
                 object-fit="cover"
                 fill={true}
               />
             </div>
-            <Link href="https://perso.uclouvain.be/vincent.blondel/" className='underline text-center decoration-red-400'>Miguel Nuñez del Prado Cortez</Link>
+            <Link href="https://perso.uclouvain.be/vincent.blondel/" className='underline text-center decoration-red-400'>Sveta Milusheva</Link>
             <p className='text-center'>World Bank</p>
           </div>
         </div>
