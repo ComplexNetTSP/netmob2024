@@ -12,7 +12,7 @@ export default function Footer() {
           {/* col 1 link to the past Netmob conference*/}
           <div className='text-white flex flex-col gap-2'>
             <div className='uppercase font-medium mb-2'>Past Edition</div>
-            <div className='text-sm font-light'>NetMob 2023</div>
+            <div className='text-sm font-light'><Link href="https://netmob.org/www23/">NetMob 2023</Link></div>
             <div className='text-sm font-light'><Link href="https://netmob.org/www19/index.html">NetMob 2019</Link></div>
             <div className='text-sm font-light'><Link href="https://netmob.org/www17/index.html">NetMob 2017</Link></div>
             <div className='text-sm font-light'><Link href="https://netmob.org/www15/index.html">NetMob 2015</Link></div>
@@ -23,7 +23,7 @@ export default function Footer() {
           {/* col 2: book of abstract */}
           <div className='text-white flex flex-col gap-2'>
             <div className='uppercase font-medium mb-2'>Book of abstract</div>
-            <div className='text-sm font-light'>Book of abstract 2023</div>
+            <div className='text-sm font-light'><Link href="https://netmob.org/www23/book_of_abstract/book_of_abstract.pdf">Book of abstract 2023</Link></div>
             <div className='text-sm font-light'><Link href="https://netmob.org/www19/assets/netmob19_withFCC.pdf">Book of abstract 2019</Link></div>
             <div className='text-sm font-light'><Link href="https://netmob.org/www17/assets/img/bookofabstract_oral_2017.pdf">Book of abstract oral 2017</Link></div>
             <div className='text-sm font-light'><Link href="https://netmob.org/www17/assets/img/bookofabstract_poster_2017.pdf">Book of abstract poster 2017</Link></div>
