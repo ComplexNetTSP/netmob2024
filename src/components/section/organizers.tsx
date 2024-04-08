@@ -21,7 +21,7 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
                 fill={true}
               />
             </div>
-            <Link href="https://perso.uclouvain.be/vincent.blondel/" className='underline text-center decoration-red-400'>Miguel Nuñez del Prado Cortez</Link>
+            <Link href="https://www.linkedin.com/in/miguel-nu%C3%B1ez-del-prado-cortez-b217272a" className='underline text-center decoration-red-400'>Miguel Nuñez del Prado Cortez</Link>
             <p className='text-center'>World Bank</p>
           </div>
 
@@ -37,7 +37,7 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
                 fill={true}
               />
             </div>
-            <Link href="https://perso.uclouvain.be/vincent.blondel/" className='underline text-center decoration-red-400'>Sveta Milusheva</Link>
+            <Link href="https://www.svetamilusheva.com/home" className='underline text-center decoration-red-400'>Sveta Milusheva</Link>
             <p className='text-center'>World Bank</p>
           </div>
         </div>
