@@ -31,7 +31,7 @@ export default function Hero() {
             <div id="hero-text" className='flex flex-col items-center lg:items-start'>
               <div className='text-slate-50 text-3xl font-medium sm:text-8xl lg:text-6xl xl:text-8xl sm:font-light italic font-atrament flex flex-row lg:flex-col'><div>NetMob</div><div className="ml-3 lg:ml-0">2024</div></div>
               <div className='text-xl font-medium sm:text-5xl lg:text-2xl xl:text-3xl text-slate-50 sm:font-light italic font-atrament pt-2 flex flex-col xl:flex-row'><div>Washington DC<span className='invisible xl:visible'>, </span></div><div className='xl:ml-3'>7-9 Oct 2024</div></div>
-              <div className='pt-6 text-normal sm:text-xl xl:text-xl text-slate-50'>NetMob is the primary conference on the analysis of mobile phone datasets in social, urban, societal and industrial problems.</div>
+              <div className='pt-6 text-normal text-center lg:text-left sm:text-xl xl:text-xl text-slate-50'>NetMob is the primary conference on the analysis of mobile phone datasets in social, urban, societal and industrial problems.</div>
               <HeroButton />
             </div>
           </div>
