@@ -6,7 +6,6 @@ import useScreenSize from '@/lib/useScreenSize';
 export default function Hero() {
   const { width } = useScreenSize();
   const videoSource = (windowSize: number | undefined) => {
-    //console.log(windowSize);
     if (windowSize! <= 400) {
       return "/video/background-xs";
     } else if (windowSize! <= 640) {
@@ -27,8 +26,8 @@ export default function Hero() {
           </video>
         }
         <div className="absolute inset-0 bg-gradient-to-b from-slate-900/10 via-slate-900/10 to-black/90 z-10"></div> 
-        <div className='container mx-auto max-w-xs h-full content-end lg:content-center sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg grid grid-cols-1 lg:grid-cols-2 justify-center'>
-          <div id="hero-title" className='z-20 px-10 py-10 lg:col-start-2'>
+        <div className='containe mx-auto max-w-xs h-full content-end lg:content-center sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg grid grid-cols-1 lg:grid-cols-2 justify-center'>
+          <div id="hero-title" className='z-20 px-10 py-10 lg:col-start-2 bg-slate-900 bg-opacity-70 sm:bg-opacity-0'>
             <div id="hero-text" className='flex flex-col items-center lg:items-start'>
               <div className='text-slate-50 text-3xl font-medium sm:text-8xl lg:text-6xl xl:text-8xl sm:font-light italic font-atrament flex flex-row lg:flex-col'><div>NetMob</div><div className="ml-3 lg:ml-0">2024</div></div>
               <div className='text-xl font-medium sm:text-5xl lg:text-2xl xl:text-3xl text-slate-50 sm:font-light italic font-atrament pt-2 flex flex-col lg:flex-row'><div>Washington DC</div><div className='lg:ml-3'>7-9 Oct 2024</div></div>
