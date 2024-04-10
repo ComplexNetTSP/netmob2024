@@ -40,6 +40,36 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
             <Link href="https://www.svetamilusheva.com/home" className='underline text-center decoration-red-400'>Sveta Milusheva</Link>
             <p className='text-center'>World Bank</p>
           </div>
+
+          {/* Organizers: Trevor */}
+          <div className='lg:col-span-3 flex flex-col justify-top items-center'>
+            <div className="w-32 h-32 mb-5 relative">
+              <Image
+                className="rounded-full border border-gray-100 shadow-lg"
+                src="/img/organisers/trevor.webp"
+                alt="Trevor"
+                object-fit="cover"
+                fill={true}
+              />
+            </div>
+            <Link href="https://www.svetamilusheva.com/home" className='underline text-center decoration-red-400'>Trevor</Link>
+            <p className='text-center'>World Bank</p>
+          </div>
+
+          {/* Organizers: Wenlan */}
+          <div className='lg:col-span-3 flex flex-col justify-top items-center'>
+            <div className="w-32 h-32 mb-5 relative">
+              <Image
+                className="rounded-full border border-gray-100 shadow-lg"
+                src="/img/organisers/wenlan.webp"
+                alt="Wenlan"
+                object-fit="cover"
+                fill={true}
+              />
+            </div>
+            <Link href="https://www.svetamilusheva.com/home" className='underline text-center decoration-red-400'>Wenlan</Link>
+            <p className='text-center'>World Bank</p>
+          </div>
         </div>
       </div>
     </div>
