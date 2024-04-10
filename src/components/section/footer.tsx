@@ -38,7 +38,7 @@ export default function Footer() {
           {/* col 3: Past Edition Program */}
           <div className='text-white flex flex-col gap-2'>
             <div className='uppercase font-medium mb-2'>Past Edition Program</div>
-            <div className='text-sm font-light'>Program NetMob 2023</div>
+            <div className='text-sm font-light'><Link href="https://netmob.org/www23/#program_at_glance">Program NetMob 2023</Link></div>
             <div className='text-sm font-light'><Link href="https://netmob.org/www19/program.html">Program NetMob 2019</Link></div>
             <div className='text-sm font-light'><Link href="https://netmob.org/www17/assets/img/Netmob2017_program.pdf">Program NetMob 2017</Link></div>
             <div className='text-sm font-light'><Link href="https://netmob.org/www15/assets/img/Final_Program_Talks_Netmob15.pdf">Program NetMob 2015</Link></div>
