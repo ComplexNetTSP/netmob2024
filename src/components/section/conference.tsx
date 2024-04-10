@@ -26,10 +26,10 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           <div id="important-date">
             <div className='pt-5 pb-3 text-xl font-medium'>Important dates</div>
             <ul className='flex flex-col space-y-1'>
-              <li><span className='font-medium'>Submission website opening</span>: June 1, 2024 </li>
-              <li><span className='font-medium'>Submission deadline</span>: June 30, 2024</li>
-              <li><span className='font-medium'>Notification of acceptance</span>: July 21, 2024</li>
-              <li><span className='font-medium'>Conference</span>: October 7-9, 2024</li>
+              <li><span className='font-semibold text-red-900'>Submission website opening</span>: June 1, 2024 </li>
+              <li><span className='font-semibold text-red-900'>Submission deadline</span>: June 30, 2024</li>
+              <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 21, 2024</li>
+              <li><span className='font-semibold text-red-900'>Conference</span>: October 7-9, 2024</li>
             </ul>
           </div>
         </div>
@@ -60,12 +60,12 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           <div id="challenge-importante-date">
             <div className='pt-5 pb-3 text-xl font-medium'>Importante dates</div>
             <ul className='flex flex-col space-y-1'>
-              <li><span className='font-medium'>Challenge launch</span>: May 13, 2024</li> 
-              <li><span className='font-medium'>Abstract submission opening</span>: June 3, 2024</li>
-              <li><span className='font-medium'>Abstract submission deadline</span>: July 8, 2024</li>
-              <li><span className='font-medium'>Notification of acceptance</span>: July 22, 2024</li>
-              <li><span className='font-medium'>Final report deadline</span>: September 16, 2024</li>
-              <li><span className='font-medium'>Presentation in the conference</span>: October 7, 2024</li>
+              <li><span className='font-semibold text-red-900'>Challenge launch</span>: May 13, 2024</li> 
+              <li><span className='font-semibold text-red-900'>Abstract submission opening</span>: June 3, 2024</li>
+              <li><span className='font-semibold text-red-900'>Abstract submission deadline</span>: July 8, 2024</li>
+              <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 22, 2024</li>
+              <li><span className='font-semibold text-red-900'>Final report deadline</span>: September 16, 2024</li>
+              <li><span className='font-semibold text-red-900'>Presentation in the conference</span>: October 7, 2024</li>
             </ul>
           </div>
         </div>
