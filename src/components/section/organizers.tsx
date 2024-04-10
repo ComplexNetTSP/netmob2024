@@ -22,7 +22,7 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
               />
             </div>
             <Link href="https://www.linkedin.com/in/miguel-nu%C3%B1ez-del-prado-cortez-b217272a" className='underline text-center decoration-red-400'>Miguel Nuñez del Prado Cortez</Link>
-            <p className='text-center'>World Bank</p>
+            <p className='text-center'>The World Bank</p>
           </div>
 
 
@@ -38,7 +38,7 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
               />
             </div>
             <Link href="https://www.svetamilusheva.com/home" className='underline text-center decoration-red-400'>Sveta Milusheva</Link>
-            <p className='text-center'>World Bank</p>
+            <p className='text-center'>The World Bank</p>
           </div>
 
           {/* Organizers: Trevor */}
@@ -47,13 +47,13 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
               <Image
                 className="rounded-full border border-gray-100 shadow-lg"
                 src="/img/organisers/trevor.webp"
-                alt="Trevor"
+                alt="Trevor Monroe"
                 object-fit="cover"
                 fill={true}
               />
             </div>
-            <Link href="https://www.svetamilusheva.com/home" className='underline text-center decoration-red-400'>Trevor</Link>
-            <p className='text-center'>World Bank</p>
+            <Link href="https://www.linkedin.com/in/trevormonroe/" className='underline text-center decoration-red-400'>Trevor Monroe</Link>
+            <p className='text-center'>The World Bank</p>
           </div>
 
           {/* Organizers: Wenlan */}
@@ -62,13 +62,13 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
               <Image
                 className="rounded-full border border-gray-100 shadow-lg"
                 src="/img/organisers/wenlan.webp"
-                alt="Wenlan"
+                alt="Wenlan Zhang"
                 object-fit="cover"
                 fill={true}
               />
             </div>
-            <Link href="https://www.svetamilusheva.com/home" className='underline text-center decoration-red-400'>Wenlan</Link>
-            <p className='text-center'>World Bank</p>
+            <Link href="https://www.zhangwenlan.com/" className='underline text-center decoration-red-400'>Wenlan Zhang</Link>
+            <p className='text-center'>The World Bank</p>
           </div>
         </div>
       </div>
