@@ -38,13 +38,15 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
         
         <div className='pt-5'>
           <p className='text-justify'>
-            Colocated with NetMob 2024, we are launching the NetMob 2024 Data Challenge. The NetMob 2024 Data Challenge seeks to foster competition centered on extracting and utilizing insights from mobility data. Beyond academic progress, the goal of this year’s challenge is to cultivate a global environment where enthusiasm for analyzing mobility data can thrive alongside practical development objectives. Specifically, it targets countries in the Global South, aligning with the Sustainable Development Goals (SDGs). Participants are encouraged to focus on one of the following three topics in their proposals:
+            Colocated with NetMob 2024, we are launching the NetMob 2024 Data Challenge. The NetMob 2024 Data Challenge seeks to foster competition centered on extracting and utilizing insights from mobility data. Beyond academic progress, the goal of this year’s challenge is to cultivate a global environment where enthusiasm for analyzing mobility data can thrive alongside practical development objectives. Specifically, it targets countries in the Global South, aligning with the Sustainable Development Goals (SDGs). {/* Participants are encouraged to focus on one of the following three topics in their proposals: */}
           </p>
+          {/*           
           <ul className='mt-5 ml-5 list-disc space-y-1'>
             <li>Increase understanding of how to derive population density from mobility data samples.</li>
             <li>Assess the impact of climate conditions or climate-related hazards on human mobility patterns.</li>
             <li>Identify various applications of mobility-based metrics to inform public policy.</li>
           </ul>
+          */}
         </div>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-10'>
