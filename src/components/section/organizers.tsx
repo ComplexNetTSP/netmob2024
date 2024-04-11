@@ -72,23 +72,23 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
             <p className='text-center'>The World Bank</p>
           </div>
         </div>
-        
+
         {/* Organizers: Second line */}
         <div className='mt-20 grid grid-cols-2 lg:grid-cols-12 gap-12 justify-center'>
           <div className='lg:col-span-3 flex flex-col justify-top items-center'>
-              <div className="w-32 h-32 mb-5 relative">
-                <Image
-                  className="rounded-full border border-gray-100 shadow-lg"
-                  src="/img/organisers/lakesh.webp"
-                  alt="Lakech Tsegaye"
-                  object-fit="cover"
-                  fill={true}
-                />
-              </div>
-              <Link href="https://www.linkedin.com/in/lakech-tsegaye-5b769548/" className='underline text-center decoration-red-400'>Lakech Tsegaye</Link>
-              <p className='text-center'>The World Bank</p>
+            <div className="w-32 h-32 mb-5 relative">
+              <Image
+                className="rounded-full border border-gray-100 shadow-lg"
+                src="/img/organisers/lakesh.webp"
+                alt="Lakech Tsegaye"
+                object-fit="cover"
+                fill={true}
+              />
             </div>
+            <Link href="https://www.linkedin.com/in/lakech-tsegaye-5b769548/" className='underline text-center decoration-red-400'>Lakech Tsegaye</Link>
+            <p className='text-center'>The World Bank</p>
           </div>
+        </div>
       </div>
     </div>
   )
