@@ -88,6 +88,20 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
             <Link href="https://www.linkedin.com/in/lakech-tsegaye-5b769548/" className='underline text-center decoration-red-400'>Lakech Tsegaye</Link>
             <p className='text-center'>The World Bank</p>
           </div>
+
+          <div className='lg:col-span-3 flex flex-col justify-top items-center'>
+            <div className="w-32 h-32 mb-5 relative">
+              <Image
+                className="rounded-full border border-gray-100 shadow-lg"
+                src="/img/organisers/vincent.webp"
+                alt="Vincent Gauthier"
+                object-fit="cover"
+                fill={true}
+              />
+            </div>
+            <Link href="https://complex.luxbulb.org" className='underline text-center decoration-red-400'>Vincent Gauthier</Link>
+            <p className='text-center'><span className='inline-block'>Telecom SudParis</span> & <span className='inline-block'>Instit Polytechnique de Paris</span></p>
+          </div>
         </div>
       </div>
     </div>
