@@ -7,7 +7,7 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
   return (
     <div className={cn('bg-slate-50', className)} {...props}>
       <div className='pt-20 pb-20 container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg'>
-        <div className='flex justify-center text-5xl lg:text-8xl italic font-atrament text-red-900'>Local Organizers</div>
+        <div className='flex justify-center text-5xl lg:text-8xl italic font-atrament text-red-900'>Organizers</div>
 
         {/* Organizers: Miguel, Sveta, Trevor, Wenlan */}
         <div className='mt-20 grid grid-cols-2 lg:grid-cols-12 gap-12 justify-center'>
