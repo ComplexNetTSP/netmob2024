@@ -124,7 +124,7 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
             <div className="w-32 h-32 mb-5 relative">
               <Image
                 className="rounded-full border border-gray-100 shadow-lg"
-                src="/img/organisers/marta.webp"
+                src="/img/organisers/marta.png"
                 alt="Marta Gonzalez"
                 object-fit="cover"
                 fill={true}
