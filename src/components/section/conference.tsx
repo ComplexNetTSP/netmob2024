@@ -54,7 +54,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
             <div className='pt-5 pb-3 text-xl font-medium'>Challenge format</div>
             <ul className='ml-5 list-disc space-y-1'>
               {/*<li>Prospective participants shall apply to the challenge in order to get access to the dataset. Instructions are available at the challenge webpage.</li> */}
-              <li className='text-justify'>Admitted participants shall submit two-page extended abstracts in PDF format including title, author(s), affiliation(s) and email address(es) on the first page, describing their preliminary results from the dataset analysis by July 8.</li>
+              <li className='text-justify'>Admitted participants shall submit two-page extended abstracts in PDF format including title, author(s), affiliation(s) and email address(es) on the first page, describing their preliminary results from the dataset analysis by July 15.</li>
               <li className='text-justify'>Selected participants will be invited to submit by 16 September a final report consisting of: a complete document without page limits that will be kept confidential, and used to select the challenge awardees as well as to take a final decision on whether the work will be presented at the conference as a talk or a poster; and, 2-page summary of the work that will appear in the public NetMob 2024 Book of Abstracts.</li>
             </ul>
           </div>
@@ -67,7 +67,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
               <li><span className='font-semibold text-red-900'>Abstract submission deadline</span>: July 15, 2024</li>
               <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 31, 2024</li>
               <li><span className='font-semibold text-red-900'>Final report deadline</span>: September 16, 2024</li>
-              <li><span className='font-semibold text-red-900'>Presentation in the conference</span>: October 7, 2024</li>
+              <li><span className='font-semibold text-red-900'>Presentation in the conference</span>: October 9, 2024</li>
             </ul>
           </div>
         </div>
