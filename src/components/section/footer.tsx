@@ -47,7 +47,7 @@ export default function Footer() {
           {/* col 4: twitter - contact - newsletter */}
           <div className='text-white flex flex-col gap-2'>
             <div className='uppercase font-medium mb-2'>Contact</div>
-            <Link href='mailto:contact@netmob.com' className='flex items-center'><ThinEnvelope className='w-6 h-6 text-white' /><span className='ml-3'>contact@netmob.com</span></Link>
+            <Link href='mailto:netmob2024@worldbank.org' className='flex items-center'><ThinEnvelope className='w-6 h-6 text-white' /><span className='ml-3'>netmob2024@worldbank.org</span></Link>
             <div className='uppercase font-medium mb-2 mt-3 pt-3 border-t border-white'>Follow us</div>
             <div className='flex'>
               <Link href="https://twitter.com/netmob2024" className='flex items-center'>
