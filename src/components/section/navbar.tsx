@@ -4,6 +4,8 @@ import { cn, scrollIntoView } from '@/lib/utils'
 import type { HTMLProps } from "react";
 import NetmobDC from '../icons/netmob-dc'
 import { RxHamburgerMenu } from "react-icons/rx";
+import { IoMdClose } from "react-icons/io";
+import { Button } from '@/components/ui/button'
 
 export default function Navbar(props: HTMLProps<HTMLDivElement>) {
   const { className, ...rest } = props;
@@ -44,7 +46,8 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
         </button>
       </div>
       {/* Mobile menu */}
-      <div id="nav-mobile-menu" className='hidden mx-4 mt-8 mb-5 flex-col text-white text-xl space-y-3'>
+      <div id="nav-mobile-menu" className='hidden container mx-auto max-w-xs mb-5 flex-col text-white text-xl space-y-3'>
+        <div className='flex justify-end' onClick={handleMobileMenu}><IoMdClose size="25px" className='mr-1'/></div>
         <button className='flex justify-normal' onClick={() => handleClick("conference")}>Conference</button>
         <button className='flex justify-normal' onClick={() => handleClick("where")}>When & Where</button>
         {/* <button className='flex justify-normal'>Program</button> */}
