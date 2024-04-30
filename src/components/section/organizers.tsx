@@ -133,7 +133,54 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
             <Link href="https://humnetlab.berkeley.edu/" className='underline text-center decoration-red-400'>Marta Gonzalez</Link>
             <p className='text-center'>University of Berkeley</p>
           </div>
+        </div>
 
+          {/* Organizers: Thrid line */}
+        <div className='mt-20 grid grid-cols-2 lg:grid-cols-12 gap-12 justify-center'>
+          {/* Organizers: Naman */}
+          <div className='lg:col-span-3 flex flex-col justify-top items-center'>
+            <div className="w-32 h-32 mb-5 relative">
+              <Image
+                className="rounded-full border border-gray-100 shadow-lg"
+                src="/img/organisers/naman.webp"
+                alt="Naman Awasthi"
+                object-fit="cover"
+                fill={true}
+              />
+            </div>
+            <Link href="https://www.cs.umd.edu/people/nawasthi" className='underline text-center decoration-red-400'>Naman Awasthi</Link>
+            <p className='text-center'>University of Maryland</p>
+          </div>
+
+          {/* Organizers: Saad Abrar */}
+          <div className='lg:col-span-3 flex flex-col justify-top items-center'>
+            <div className="w-32 h-32 mb-5 relative">
+              <Image
+                className="rounded-full border border-gray-100 shadow-lg"
+                src="/img/organisers/sabrar.webp"
+                alt="Saad Mohammad Abrar"
+                object-fit="cover"
+                fill={true}
+              />
+            </div>
+            <Link href="https://www.cs.umd.edu/people/sabrar" className='underline text-center decoration-red-400'>Saad Mohammad Abrar</Link>
+            <p className='text-center'>University of Maryland</p>
+          </div>
+
+          {/* Organizers: Daniel Smolyak*/}
+          <div className='lg:col-span-3 flex flex-col justify-top items-center'>
+            <div className="w-32 h-32 mb-5 relative">
+              <Image
+                className="rounded-full border border-gray-100 shadow-lg"
+                src="/img/organisers/dsmolyak.webp"
+                alt="Daniel Smolyak"
+                object-fit="cover"
+                fill={true}
+              />
+            </div>
+            <Link href="http://dsmolyak.github.io/" className='underline text-center decoration-red-400'>Daniel Smolyak</Link>
+            <p className='text-center'>University of Maryland</p>
+          </div>
         </div>
       </div>
     </div>
