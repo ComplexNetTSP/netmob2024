@@ -19,9 +19,9 @@ export default function Committee() {
 
   function CommitteeMembers() {
     return (
-      committee_members.map((member) => {
+      committee_members.map((member, index) => {
         return (
-          <div className='flex'>
+          <div key={index} className='flex'>
             <span>{member.name}, {member.affiliation}</span>
             {member.url && <div><Link href={member.url} className='ml-3 text-red-600'>[URL]</Link></div>}
           </div>
