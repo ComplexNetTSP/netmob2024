@@ -15,6 +15,8 @@ export default function Committee() {
     { name: "Vanessa Frias-Martinez", affiliation: "University of Maryland, US", url: "https://www.cs.umd.edu/~vanessa/"},
     { name: "Tassos Noulas", affiliation: "Firefly, US", email: "tnoulas@gmail.com"},
     { url: "https://neaveoclery.com/", name: "Neave O'Clery", affiliation: "University College London, UK" },
+    { name : "Chen Zhong", affiliation: "University College London, UK", url: "https://www.ucl.ac.uk/steapp/people/research-staff/chen-zhong"},
+    { name: "Giovanna Miritello", affiliation: "Vodafone", email: "Giovanna.Miritello@vodafone.com", url: "https://www.linkedin.com/in/giovanna-miritello-a6675919/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=uk"},
   ] 
 
   function CommitteeMembers() {
