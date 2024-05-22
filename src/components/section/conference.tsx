@@ -65,7 +65,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
               <li><span className='font-semibold text-red-900'>Challenge launch</span>: June 3, 2024</li> 
               <li><span className='font-semibold text-red-900'>Abstract submission opening</span>: June 17, 2024</li>
               <li><span className='font-semibold text-red-900'>Abstract submission deadline</span>: July 7, 2024</li>
-              <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 31, 2024</li>
+              <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 21, 2024</li>
               <li><span className='font-semibold text-red-900'>Final report deadline</span>: September 16, 2024</li>
               <li><span className='font-semibold text-red-900'>Presentation in the conference</span>: October 9, 2024</li>
             </ul>
