@@ -8,5 +8,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'always',
       priority: 1,
     },
+    {
+      url : 'https://netmob.org/challenge',
+      lastModified : new Date(),
+      changeFrequency: 'always',
+      priority: 1,
+    },
   ]
 }
