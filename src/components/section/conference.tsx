@@ -36,7 +36,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
         </div>
 
         <div id='main-conference' className='pt-10 flex text-4xl font-atrament'>Data Challenge</div>
-        
+
         <div className='pt-5'>
           <p className='text-justify'>
             Colocated with NetMob 2024, we are launching the NetMob 2024 Data Challenge. The NetMob 2024 Data Challenge seeks to foster competition centered on extracting and utilizing insights from mobility data. Beyond academic progress, the goal of this year’s challenge is to cultivate a global environment where enthusiasm for analyzing mobility data can thrive alongside practical development objectives. Specifically, it targets countries in the Global South, aligning with the Sustainable Development Goals (SDGs). {/* Participants are encouraged to focus on one of the following three topics in their proposals: */}
@@ -64,10 +64,8 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
             <div className='pt-5 pb-3 text-xl font-medium'>Importante dates</div>
             <ul className='flex flex-col space-y-1'>
               <li><Link className='font-semibold text-red-900 underline' href="https://netmob24.hotcrp.com/">Abstract submission website opening</Link>: June 17, 2024</li>
-              <li><span className='font-semibold text-red-900'>Abstract submission deadline</span>: July 7, 2024</li>
-              <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 21, 2024</li>
-              <li><span className='font-semibold text-red-900'>Final report deadline</span>: September 16, 2024</li>
-              <li><span className='font-semibold text-red-900'>Presentation in the conference</span>: October 9, 2024</li>
+              <li><span className='font-semibold text-red-900'>Challenge launch</span>: June 1, 2024</li>
+              <li><span className='font-semibold text-red-900'>Abstract submission opening</span>: June 1, 2024</li>
             </ul>
           </div>
         </div>
