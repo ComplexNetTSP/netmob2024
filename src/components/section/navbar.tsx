@@ -7,9 +7,11 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import Link from 'next/link';
 import { useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 
 export default function Navbar(props: HTMLProps<HTMLDivElement>) {
   const router = useRouter()
+  const pathname = usePathname()
   const { className, ...rest } = props;
   const style = cn("fixed top-0 w-screen z-50 bg-slate-900", className)
   const handleClick = (id: string) => {
@@ -18,8 +20,11 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
     if (mobileMenu && !mobileMenu.classList.contains("hidden")) {
       mobileMenu.classList.toggle("hidden"); 
     }
-    router.push("/#"+id);
-    //scrollIntoView(id);
+    if (pathname !== "/") {
+      router.push("/#"+id);
+    }else{
+      scrollIntoView(id);
+    }
   }
 
   const handleMobileMenu = (e:any) => {
