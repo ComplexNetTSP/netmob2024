@@ -5,6 +5,7 @@ import type { HTMLProps } from "react";
 import NetmobDC from '../icons/netmob-dc'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
+import Link from 'next/link';
 
 export default function Navbar(props: HTMLProps<HTMLDivElement>) {
   const { className, ...rest } = props;
@@ -31,7 +32,7 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
     <nav className={style} {...rest}>
       {/* Mavbar */}
       <div className="container mx-auto max-w-xs sm:max-w-xl md:max-w-screen-sm xl:max-w-screen-lg flex justify-between items-center gap-5 text-lg font-normal mt-3 py-2 rounded-xl shadow-lg text-slate-50">
-        <NetmobDC className="w-40 text-wihite" />
+        <Link href="/"><NetmobDC className="w-40 text-wihite" /></Link>
         <div id="primary-nav" className='hidden xl:flex gap-4'>
           <button className='ml-20' onClick={() => handleClick("conference")}>Conference</button>
           <button onClick={() => handleClick("where")}>When & Where</button>
