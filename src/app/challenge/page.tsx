@@ -6,8 +6,10 @@ import Footer from '@/components/section/footer';
 export default function Challenge() {
   return (
     <main>
+      {/* Header */}
       <Navbar />
       <Terms />
+      {/* Footer */}
       <Footer />
     </main>    
   )
