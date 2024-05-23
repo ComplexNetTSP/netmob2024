@@ -56,8 +56,8 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           <div id="challenge-importante-date">
             <div className='pt-5 pb-3 text-xl font-medium'>Importante dates</div>
             <ul className='flex flex-col space-y-1'>
-              <li><span className='font-semibold text-red-900'>Challenge launch</span>: June 1, 2024</li> 
               <li><Link className='font-semibold text-red-900 underline' href="https://netmob24.hotcrp.com/">Abstract submission website opening</Link>: June 1, 2024</li>
+              <li><span className='font-semibold text-red-900'>Challenge launch</span>: June 1, 2024</li> 
               <li><span className='font-semibold text-red-900'>Abstract submission deadline</span>: July 7, 2024</li>
               <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 21, 2024</li>
             </ul>
