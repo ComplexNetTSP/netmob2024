@@ -1,22 +1,25 @@
 'use client';
-import React from 'react'
+import React, {useEffect} from 'react'
 import { cn, scrollIntoView } from '@/lib/utils'
 import type { HTMLProps } from "react";
 import NetmobDC from '../icons/netmob-dc'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import Link from 'next/link';
+import { useRouter } from 'next/navigation'
 
 export default function Navbar(props: HTMLProps<HTMLDivElement>) {
+  const router = useRouter()
   const { className, ...rest } = props;
   const style = cn("fixed top-0 w-screen z-50 bg-slate-900", className)
   const handleClick = (id: string) => {
+    router.push("/#"+id);
     // close mobile menu if open
     const mobileMenu = document.getElementById("nav-mobile-menu");
     if (mobileMenu && !mobileMenu.classList.contains("hidden")) {
       mobileMenu.classList.toggle("hidden"); 
     }
-    scrollIntoView(id);
+    //scrollIntoView(id);
   }
 
   const handleMobileMenu = (e:any) => {
