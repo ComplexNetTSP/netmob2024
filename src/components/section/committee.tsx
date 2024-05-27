@@ -17,6 +17,7 @@ export default function Committee() {
     { url: "https://neaveoclery.com/", name: "Neave O'Clery", affiliation: "University College London, UK" },
     { name : "Chen Zhong", affiliation: "University College London, UK", url: "https://profiles.ucl.ac.uk/46973-chen-zhong"},
     { name: "Giovanna Miritello", affiliation: "Vodafone", email: "Giovanna.Miritello@vodafone.com", url: "https://www.linkedin.com/in/giovanna-miritello-a6675919/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=uk"},
+    { name: "Lei Dong", email:"leidong@pku.edu.cn", affiliation: "Peking University, China", url: "https://irsgis.pku.edu.cn/english/facultystaff/gis/donglei/index.htm"},
   ] 
 
   function CommitteeMembers() {
