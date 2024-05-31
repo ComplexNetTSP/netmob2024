@@ -29,6 +29,7 @@ export default function Committee() {
     { name: "Rosario Medina", affiliation: "Pontifical Catholic University, Peru", url: "https://rmedinar.github.io/"},
     { name: "Yang Yue", affiliation: "Shenzhen University, China", url: "https://scholar.google.com/citations?user=Or3pqN8AAAAJ&hl=en"},
     { name: "Nicholas K.W. jones", email: "njones@worldbankgroup.org", url:"https://www.linkedin.com/in/nick-jones-302a945/?originalSubdomain=uk", affiliation: "World Bank, US"},
+    { name: "Erwin W. Knippenberg", email: "eknippenberg@worldbank.org", affiliation: "The World Bank, US", url: "https://www.linkedin.com/in/erwin-knippenberg-45493822/"},
   ] 
 
   function CommitteeMembers() {
