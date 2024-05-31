@@ -28,6 +28,7 @@ export default function Committee() {
     { name: "Hugo Alatrista-Salas", affiliation: "De Vinci University, France", url: "http://hugo.alatristasalas.free.fr/Alatsal/Welcome.html"},
     { name: "Rosario Medina", affiliation: "Pontifical Catholic University, Peru", url: "https://rmedinar.github.io/"},
     { name: "Yang Yue", affiliation: "Shenzhen University, China", url: "https://scholar.google.com/citations?user=Or3pqN8AAAAJ&hl=en"},
+    { name: "Nicholas K.W. jones", email: "njones@worldbankgroup.org", url:"https://www.linkedin.com/in/nick-jones-302a945/?originalSubdomain=uk", affiliation: "World Bank, US"},
   ] 
 
   function CommitteeMembers() {
