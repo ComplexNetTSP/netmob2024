@@ -11,7 +11,7 @@ type CommitteeMember = {
 export default function Committee() {
   const committee_members: CommitteeMember[] = [
     { name: "Bruno Lepri", affiliation: "FBK Foundation, Italy", url: "https://www.linkedin.com/in/brunolepri/" },
-    { name: "Vanessa Frias-Martinez", affiliation: "University of Maryland, US", url: "https://www.cs.umd.edu/~vanessa/"},
+    { name: "Enrique Frias-Martinez", affiliation: "UNIR iTED, Spain", url: "https://enriquefrias-martinez.info/home"},
     { name: "Giovanna Miritello", affiliation: "Vodafone", email: "Giovanna.Miritello@vodafone.com", url: "https://www.linkedin.com/in/giovanna-miritello-a6675919/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=uk"},
     { name: "Takahiro Yabe", affiliation:"New York University, US", url:"https://www.takayabe.net/", email:"takahiroyabe@nyu.edu"},
     { name: "Anastasios Noulas", affiliation: "Firefly, US", email: "tnoulas@gmail.com", url: "https://scholar.google.com/citations?user=tnkMDBsAAAAJ&hl=en"},
@@ -30,6 +30,8 @@ export default function Committee() {
     { name: "Yang Yue", affiliation: "Shenzhen University, China", url: "https://scholar.google.com/citations?user=Or3pqN8AAAAJ&hl=en"},
     { name: "Nicholas K.W. jones", email: "njones@worldbankgroup.org", url:"https://www.linkedin.com/in/nick-jones-302a945/?originalSubdomain=uk", affiliation: "World Bank, US"},
     { name: "Erwin W. Knippenberg", email: "eknippenberg@worldbank.org", affiliation: "The World Bank, US", url: "https://www.linkedin.com/in/erwin-knippenberg-45493822/"},
+    { name: "Mirco Musolesi", email: "m.musolesi@ucl.ac.uk", affiliation: "University College London, UK", url: "https://www.mircomusolesi.org/"},
+    { name: "Yoshihide Sekimoto", email: "sekimoto@iis.u-tokyo.ac.jp", affiliation: "The University of Tokyo, Japan", url: "https://www.iis.u-tokyo.ac.jp/en/research/staff/yoshihide-sekimoto/"},
   ] 
 
   function CommitteeMembers() {
