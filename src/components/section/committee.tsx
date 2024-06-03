@@ -32,6 +32,7 @@ export default function Committee() {
     { name: "Erwin W. Knippenberg", email: "eknippenberg@worldbank.org", affiliation: "The World Bank, US", url: "https://www.linkedin.com/in/erwin-knippenberg-45493822/"},
     { name: "Mirco Musolesi", email: "m.musolesi@ucl.ac.uk", affiliation: "University College London, UK", url: "https://www.mircomusolesi.org/"},
     { name: "Yoshihide Sekimoto", email: "sekimoto@iis.u-tokyo.ac.jp", affiliation: "The University of Tokyo, Japan", url: "https://www.iis.u-tokyo.ac.jp/en/research/staff/yoshihide-sekimoto/"},
+    { name: "Oscar Eduardo Barriga-Cabanillas", email:"obarriga@worldbank.org" , affiliation: "The World Bank, US", url: "https://www.obcabanillas.com/"},
   ] 
 
   function CommitteeMembers() {
