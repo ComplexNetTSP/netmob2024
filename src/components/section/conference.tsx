@@ -39,15 +39,29 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
 
         <div className='pt-5'>
           <p className='text-justify'>
-            Colocated with NetMob 2024, we are launching the NetMob 2024 Data Challenge. The NetMob 2024 Data Challenge seeks to foster competition centered on extracting and utilizing insights from mobility data. Beyond academic progress, the goal of this year’s challenge is to cultivate a global environment where enthusiasm for analyzing mobility data can thrive alongside practical development objectives. Specifically, it targets countries in the Global South, aligning with the Sustainable Development Goals (SDGs). {/* Participants are encouraged to focus on one of the following three topics in their proposals: */}
+            Colocated with NetMob 2024, we are launching the NetMob 2024 Data Challenge. The NetMob 2024 Data Challenge seeks to foster competition centered on extracting and utilizing insights from mobility data. Beyond academic progress, the goal of this year’s challenge is to cultivate a global environment where enthusiasm for analyzing mobility data can thrive alongside practical development objectives. Specifically, it targets countries in the Global South, aligning with the Sustainable Development Goals (SDGs).
           </p>
+          <p className='text-justify'>
+            Netmob partners with <Link href="https://spectus.ai/" className='underline decoration-red-800'>Spectus</Link> for the 2024 Data Challenge to publish aggregated mobility dataset for four countries: <span className='font-semibold'>Mexico, Colombia, Indonesia, and India</span>. The data will cover the year 2019 and there are two datasets included in this challenge:
+          </p>
+
+          {/* Bullet points*/}
+          <ul className='mt-3 mb-3 list-decimal pl-4 space-y-2'>
+            <li>Population Density Data: This dataset describes the daily presence of mobile users, providing insights into the number of devices detected at specific locations on a daily basis. This will be aggregated by day at geohash 3 and 5 levels.</li>
+            <li>Origin-Destination Matrix Data: This dataset describes the flow of devices between two consecutive stops within a single day. The locations are aggregated to geohash 3 and geohash 5, offering detailed movement patterns of mobile users. </li>
+          </ul>
+
+        </div>
+        <div>  
+          <p className='text-justify'>Additional datasets will be added that include aggregation by 3-hour intervals for both types of data. The team will also be including data from 2020, but this will not yet be available at the start of the challenge.
+            Participants are encouraged to utilize these datasets to explore and analyze various aspects of human mobility and to inform policy within these countries.</p>
         </div>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-10'>
           <div id="challenge-format">
             <div className='pt-5 pb-3 text-xl font-medium'>Challenge format</div>
             <ul className='ml-5 list-disc space-y-1'>
-              <li className='text-justify'>Admitted participants shall submit two-page extended abstracts in PDF format including title, author(s), affiliation(s) and email address(es) on the first page, describing their preliminary results from the dataset analysis by July 15.</li>
+              <li className='text-justify'>Admitted participants shall submit two-page extended abstracts in PDF format including title, author(s), affiliation(s) and email address(es) on the first page, describing their preliminary results from the dataset analysis by July 7.</li>
               <li className='text-justify'>Selected participants will be invited to submit by 16 September a final report consisting of: a complete document without page limits that will be kept confidential, and used to select the challenge awardees as well as to take a final decision on whether the work will be presented at the conference as a talk or a poster; and, 2-page summary of the work that will appear in the public NetMob 2024 Book of Abstracts.</li>
               <li className='text-justify'><Link className='font-semibold text-red-900 underline' href="/challenge">Participants should comply with the challenge terms and conditions</Link></li>
             </ul>
@@ -57,7 +71,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
             <div className='pt-5 pb-3 text-xl font-medium'>Importante dates</div>
             <ul className='flex flex-col space-y-1'>
               <li><Link className='font-semibold text-red-900 underline' href="https://netmob24.hotcrp.com/">Abstract submission website opening</Link>: June 1, 2024</li>
-              <li><span className='font-semibold text-red-900'>Challenge launch</span>: June 10, 2024</li> 
+              <li><span className='font-semibold text-red-900'>Challenge launch</span>: June 10, 2024</li>
               <li><span className='font-semibold text-red-900'>Abstract submission deadline</span>: July 7, 2024</li>
               <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 21, 2024</li>
             </ul>
