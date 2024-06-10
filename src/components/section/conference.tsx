@@ -62,7 +62,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
             <ul className='ml-5 list-disc space-y-1'>
               <li className='text-justify'>Admitted participants shall submit two-page extended abstracts in PDF format describing their preliminary results from the dataset analysis by July 7.</li>
               <li className='text-justify'>Selected participants will be invited to submit by September 16 a final report consisting of: a complete document without page limits that will be kept confidential, and used to select the challenge awardees as well as to take a final decision on whether the work will be presented at the conference as a talk or a poster; and, 2-page summary of the work that will appear in the public NetMob 2024 Book of Abstracts.</li>
-              <li className='text-justify'><Link className='font-semibold text-red-900 underline' href="/challenge">Participants should comply with the challenge terms and conditions</Link></li>
+              <li className='text-justify'><Link className='font-semibold text-red-900 underline' href="https://datacatalog.worldbank.org/search/dataset/0066094/aggregated_mobility_and_density_data_for_the_netmob_2024_data_challenge">Participants should comply with the challenge terms and conditions</Link></li>
             </ul>
           </div>
 
