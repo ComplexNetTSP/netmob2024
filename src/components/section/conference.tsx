@@ -53,7 +53,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
         </div>
         <div>  
           <p className='text-justify'>Additional datasets will be added that include aggregation by 3-hour intervals for both types of data. The team will also be including data from 2020, but this will not yet be available at the start of the challenge. Participants are encouraged to utilize these datasets to explore and analyze various aspects of human mobility and to inform policy within these countries.</p>
-          <p className='text-jutify mt-3 font-semibold'>Please apply to participate in the data challenge by completing the <Link href="https://datacatalog.worldbank.org/search/dataset/0066094/aggregated_mobility_and_density_data_for_the_netmob_2024_data_challenge" className='text-red-900 font-semibold'>Data Request Form</Link>. All participants are required to review and agree to the Terms and Conditions before applying.</p>
+          <p className='text-jutify mt-3 font-semibold'>Please apply to participate in the data challenge by completing the <Link href="https://datacatalog.worldbank.org/search/dataset/0066094/aggregated_mobility_and_density_data_for_the_netmob_2024_data_challenge" className='text-red-900 font-semibold'>Data Request Form</Link>. All participants are required to review and agree to the Terms and Conditions before applying.</p> 
         </div>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-10'>
