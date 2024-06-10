@@ -33,6 +33,8 @@ export default function Committee() {
     { name: "Mirco Musolesi", email: "m.musolesi@ucl.ac.uk", affiliation: "University College London, UK", url: "https://www.mircomusolesi.org/"},
     { name: "Yoshihide Sekimoto", email: "sekimoto@iis.u-tokyo.ac.jp", affiliation: "The University of Tokyo, Japan", url: "https://www.iis.u-tokyo.ac.jp/en/research/staff/yoshihide-sekimoto/"},
     { name: "Oscar Eduardo Barriga-Cabanillas", email:"obarriga@worldbank.org" , affiliation: "The World Bank, US", url: "https://www.obcabanillas.com/"},
+    { name: "Mori Kurokawa", email: "Mori Kurokawa", affiliation:"KDDI Research, Japan", url: "https://scholar.google.co.jp/citations?user=vmIprTMAAAAJ&hl=ja"},
+    { name: "Daniel A. Rodriguez", email: "danrod@berkeley.edu", affiliation: "UC Berkeley, US", url: "https://ced.berkeley.edu/people/daniel-rodriguez"}
   ] 
 
   function CommitteeMembers() {

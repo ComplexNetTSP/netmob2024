@@ -19,7 +19,6 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
             <div className='pt-5 pb-3 text-xl font-medium'>Submission format</div>
             <ul className='ml-4 list-disc space-y-1'>
               <li>Authors are invited to submit two-page abstracts (including figures, tables and references).</li>
-              <li>Submissions should include the title, author(s), affiliation(s) and email address(es) on the first page.</li>
               <li>Electronic submission of manuscripts in PDF format is required</li>
             </ul>
           </div>
@@ -53,16 +52,16 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
 
         </div>
         <div>  
-          <p className='text-justify'>Additional datasets will be added that include aggregation by 3-hour intervals for both types of data. The team will also be including data from 2020, but this will not yet be available at the start of the challenge.
-            Participants are encouraged to utilize these datasets to explore and analyze various aspects of human mobility and to inform policy within these countries.</p>
+          <p className='text-justify'>Additional datasets will be added that include aggregation by 3-hour intervals for both types of data. The team will also be including data from 2020, but this will not yet be available at the start of the challenge. Participants are encouraged to utilize these datasets to explore and analyze various aspects of human mobility and to inform policy within these countries.</p>
+          <p className='text-jutify mt-3 font-semibold'>Please apply to participate in the data challenge by completing the <Link href="https://datacatalog.worldbank.org/search/dataset/0066094/aggregated_mobility_and_density_data_for_the_netmob_2024_data_challenge" className='text-red-900 font-semibold'>Data Request Form</Link>. All participants are required to review and agree to the Terms and Conditions before applying.</p>
         </div>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-10'>
           <div id="challenge-format">
             <div className='pt-5 pb-3 text-xl font-medium'>Challenge format</div>
             <ul className='ml-5 list-disc space-y-1'>
-              <li className='text-justify'>Admitted participants shall submit two-page extended abstracts in PDF format including title, author(s), affiliation(s) and email address(es) on the first page, describing their preliminary results from the dataset analysis by July 7.</li>
-              <li className='text-justify'>Selected participants will be invited to submit by 16 September a final report consisting of: a complete document without page limits that will be kept confidential, and used to select the challenge awardees as well as to take a final decision on whether the work will be presented at the conference as a talk or a poster; and, 2-page summary of the work that will appear in the public NetMob 2024 Book of Abstracts.</li>
+              <li className='text-justify'>Admitted participants shall submit two-page extended abstracts in PDF format describing their preliminary results from the dataset analysis by July 7.</li>
+              <li className='text-justify'>Selected participants will be invited to submit by September 16 a final report consisting of: a complete document without page limits that will be kept confidential, and used to select the challenge awardees as well as to take a final decision on whether the work will be presented at the conference as a talk or a poster; and, 2-page summary of the work that will appear in the public NetMob 2024 Book of Abstracts.</li>
               <li className='text-justify'><Link className='font-semibold text-red-900 underline' href="/challenge">Participants should comply with the challenge terms and conditions</Link></li>
             </ul>
           </div>
