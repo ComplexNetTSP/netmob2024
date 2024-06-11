@@ -35,7 +35,7 @@ export default function Committee() {
     { name: "Oscar Eduardo Barriga-Cabanillas", email:"obarriga@worldbank.org" , affiliation: "The World Bank, US", url: "https://www.obcabanillas.com/"},
     { name: "Mori Kurokawa", email: "Mori Kurokawa", affiliation:"KDDI Research, Japan", url: "https://scholar.google.co.jp/citations?user=vmIprTMAAAAJ&hl=ja"},
     { name: "Daniel A. Rodriguez", email: "danrod@berkeley.edu", affiliation: "UC Berkeley, US", url: "https://ced.berkeley.edu/people/daniel-rodriguez"},
-    { name: "Riccardo Di Clemente", email: "riccardo.diclemente@nulondon.ac.uk", affiliation: "Northeastern University London, UK", url: "https://www.riccardodiclemente.com/"},
+    { name: "Riccardo Di Clemente", email: "riccardo.diclemente@nulondon.ac.uk", affiliation: "Northeastern Univ. London, UK", url: "https://www.riccardodiclemente.com/"},
   ] 
 
   function CommitteeMembers() {
