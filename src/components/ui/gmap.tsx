@@ -1,5 +1,6 @@
+'use client'
 import React from 'react'
-import { APIProvider, Map, AdvancedMarker, InfoWindow} from '@vis.gl/react-google-maps';
+import { APIProvider, Map, AdvancedMarker} from '@vis.gl/react-google-maps';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import { RiDirectionFill } from "react-icons/ri";
@@ -7,6 +8,7 @@ import { RiDirectionFill } from "react-icons/ri";
 export default function Gmap({className, ...props}:React.HTMLAttributes<HTMLDivElement>) {
   const style = cn('relative h-[50dvh] w-full', className)
   const center = {lat: 38.89917264789075, lng: -77.04184558965937}
+  const mapId = process.env.NEXT_PUBLIC_MAPS_ID as string;
   return (
     <div className={style}>
       <div className='absolute start-0 z-10 w-full flex justify-center mt-1'>
@@ -31,7 +33,7 @@ export default function Gmap({className, ...props}:React.HTMLAttributes<HTMLDivE
           defaultZoom={14}
           gestureHandling={'greedy'}
           disableDefaultUI={false}
-          mapId={'c6c3684615d986c5'}
+          mapId={mapId}
         >
           <AdvancedMarker position={{lat: center.lat, lng: center.lng}} />
         </Map>
