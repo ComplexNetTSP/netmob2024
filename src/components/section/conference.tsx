@@ -16,7 +16,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
 
         <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-10'>
           <div id="submission-format">
-            <div className='pt-5 pb-3 text-xl font-medium'>Submission format</div>
+            <div className='pt-5 pb-3 text-xl font-medium'>Submission Format</div>
             <ul className='ml-4 list-disc space-y-1'>
               <li>Authors are invited to submit two-page abstracts (including figures, tables and references).</li>
               <li>Electronic submission of manuscripts in PDF format is required</li>
@@ -24,7 +24,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           </div>
 
           <div id="important-date">
-            <div className='pt-5 pb-3 text-xl font-medium'>Important dates</div>
+            <div className='pt-5 pb-3 text-xl font-medium'>Important Dates</div>
             <ul className='flex flex-col space-y-1'>
               <li><Link className='font-semibold text-red-900 underline' href="https://netmob24.hotcrp.com/">Submission website opening</Link> June 1, 2024 </li>
               <li><span className='font-semibold text-red-900'>Submission deadline</span>: July 7, 2024</li>
@@ -51,30 +51,48 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           </ul>
 
         </div>
-        <div>  
+        <div>
           <p className='text-justify'>Additional datasets will be added that include aggregation by 3-hour intervals for both types of data. The team will also be including data from 2020, but this will not yet be available at the start of the challenge. Participants are encouraged to utilize these datasets to explore and analyze various aspects of human mobility and to inform policy within these countries.</p>
-          <p className='text-jutify mt-3 font-semibold'>Please apply to participate in the data challenge by completing the <Link href="https://datacatalog.worldbank.org/search/dataset/0066094/aggregated_mobility_and_density_data_for_the_netmob_2024_data_challenge" className='text-red-900 font-semibold'>Data Request Form</Link>. All participants are required to review and agree to the Terms and Conditions before applying.</p> 
+          <p className='text-jutify mt-3 font-semibold'>Please apply to participate in the data challenge by completing the <Link href="https://datacatalog.worldbank.org/search/dataset/0066094/aggregated_mobility_and_density_data_for_the_netmob_2024_data_challenge" className='text-red-900 font-semibold'>Data Request Form</Link>. All participants are required to review and agree to the Terms and Conditions before applying.</p>
         </div>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-10'>
           <div id="challenge-format">
-            <div className='pt-5 pb-3 text-xl font-medium'>Challenge format</div>
+            <div className='pt-5 pb-3 text-xl font-medium'>Challenge Format</div>
             <ul className='ml-5 list-disc space-y-1'>
-              <li className='text-justify'>Admitted participants shall submit two-page extended abstracts in PDF format describing their preliminary results from the dataset analysis by July 7.</li>
-              <li className='text-justify'>Selected participants will be invited to submit by September 16 a final report consisting of: a complete document without page limits that will be kept confidential, and used to select the challenge awardees as well as to take a final decision on whether the work will be presented at the conference as a talk or a poster; and, 2-page summary of the work that will appear in the public NetMob 2024 Book of Abstracts.</li>
+              <li className='text-justify'>Admitted participants shall submit two-page extended abstracts in PDF format describing their research proposal by <span className='text-red-900 font-semibold'>July 7</span>.</li>
+              <li className='text-justify'>Selected participants will be invited to submit by <span className='text-red-900 font-semibold'>September 16</span> a final report consisting of: a complete document without page limits that will be kept confidential, and used to select the challenge awardees as well as to take a final decision on whether the work will be presented at the conference as a talk or a poster; and, 2-page summary of the work that will appear in the public NetMob 2024 Book of Abstracts.</li>
               <li className='text-justify'><Link className='font-semibold text-red-900 underline' href="https://datacatalog.worldbank.org/search/dataset/0066094/aggregated_mobility_and_density_data_for_the_netmob_2024_data_challenge">Participants should comply with the challenge terms and conditions</Link></li>
             </ul>
           </div>
+          {/* begin right column */}
+          <div>
+            {/* Important dates */}
+            <div id="challenge-importante-date">
+              <div className='pt-5 pb-3 text-xl font-medium'>Important Dates</div>
+              <ul className='flex flex-col space-y-1'>
+                <li><Link className='font-semibold text-red-900 underline' href="https://netmob24.hotcrp.com/">Abstract submission website opening</Link>: June 1, 2024</li>
+                <li><span className='font-semibold text-red-900'>Challenge launch</span>: June 10, 2024</li>
+                <li><span className='font-semibold text-red-900'>Research proposal submission deadline</span>: July 7, 2024</li>
+                <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 21, 2024</li>
+                <li><span className='font-semibold text-red-900'>Final report submission deadline</span>: September 16, 2024</li>
+                <li><span className='font-semibold text-red-900'>Notification of presentation and Poster</span>: September 30, 2024</li>
+              </ul>
+            </div>
 
-          <div id="challenge-importante-date">
-            <div className='pt-5 pb-3 text-xl font-medium'>Importante dates</div>
-            <ul className='flex flex-col space-y-1'>
-              <li><Link className='font-semibold text-red-900 underline' href="https://netmob24.hotcrp.com/">Abstract submission website opening</Link>: June 1, 2024</li>
-              <li><span className='font-semibold text-red-900'>Challenge launch</span>: June 10, 2024</li>
-              <li><span className='font-semibold text-red-900'>Abstract submission deadline</span>: July 7, 2024</li>
-              <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 21, 2024</li>
-            </ul>
+            {/* Suggested Topics */}
+            <div id="suggested-topics">
+              <div className='pt-5 pb-3 text-xl font-medium'>Suggested Topics</div>
+              <ul className='ml-5 flex list-disc flex-col space-y-1'>
+                <li>Weather Patterns, Climate Resilience, and Natural Hazards</li>
+                <li>Urban Planning and Sustainable Transportation</li>
+                <li>Public Health and Well-being</li>
+                <li>Poverty Mapping and Social Protection</li>
+                <li>Advancements in Methodologies for Analyzing Mobile Phone Data</li>
+              </ul>
+            </div>
           </div>
+           {/* end right column */}
         </div>
       </div>
     </div>
