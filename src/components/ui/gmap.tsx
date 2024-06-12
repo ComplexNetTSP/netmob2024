@@ -8,7 +8,7 @@ import { RiDirectionFill } from "react-icons/ri";
 export default function Gmap({className, ...props}:React.HTMLAttributes<HTMLDivElement>) {
   const style = cn('relative h-[50dvh] w-full', className)
   const center = {lat: 38.89917264789075, lng: -77.04184558965937}
-  const mapId = process.env.NEXT_PUBLIC_MAPS_ID as string;
+  const mapId = "36aeb96a1b269fe9";
   return (
     <div className={style}>
       <div className='absolute start-0 z-10 w-full flex justify-center mt-1'>
