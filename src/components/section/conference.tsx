@@ -27,8 +27,8 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
             <div className='pt-5 pb-3 text-xl font-medium'>Important Dates</div>
             <ul className='flex flex-col space-y-1'>
               <li><Link className='font-semibold text-red-900 underline' href="https://netmob24.hotcrp.com/">Submission website opening</Link> June 1, 2024 </li>
-              <li><span className='font-semibold text-red-900'>Submission deadline</span>: July 7, 2024</li>
-              <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 21, 2024</li>
+              <li><span className='font-semibold text-red-900'>Submission deadline</span>: July 15, 2024</li>
+              <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 30, 2024</li>
               <li><span className='font-semibold text-red-900'>Conference</span>: October 7-9, 2024</li>
             </ul>
           </div>
@@ -61,7 +61,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           <div id="challenge-format">
             <div className='pt-5 pb-3 text-xl font-medium'>Challenge Format</div>
             <ul className='ml-5 list-disc space-y-1'>
-              <li className='text-justify'>Admitted participants shall submit two-page extended abstracts in PDF format describing their research proposal by <span className='text-red-900 font-semibold'>July 7</span>.</li>
+              <li className='text-justify'>Admitted participants shall submit two-page extended abstracts in PDF format describing their research proposal by <span className='text-red-900 font-semibold'>July 15</span>.</li>
               <li className='text-justify'>Selected participants will be invited to submit by <span className='text-red-900 font-semibold'>September 16</span> a final report consisting of: a complete document without page limits that will be kept confidential, and used to select the challenge awardees as well as to take a final decision on whether the work will be presented at the conference as a talk or a poster; and, 2-page summary of the work that will appear in the public NetMob 2024 Book of Abstracts.</li>
               <li className='text-justify'><Link className='font-semibold text-red-900 underline' href="https://datacatalog.worldbank.org/search/dataset/0066094/aggregated_mobility_and_density_data_for_the_netmob_2024_data_challenge">Participants should comply with the challenge terms and conditions</Link></li>
             </ul>
@@ -74,8 +74,8 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
               <ul className='flex flex-col space-y-1'>
                 <li><Link className='font-semibold text-red-900 underline' href="https://netmob24.hotcrp.com/">Abstract submission website opening</Link>: June 1, 2024</li>
                 <li><span className='font-semibold text-red-900'>Challenge launch</span>: June 10, 2024</li>
-                <li><span className='font-semibold text-red-900'>Research proposal submission deadline</span>: July 7, 2024</li>
-                <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 21, 2024</li>
+                <li><span className='font-semibold text-red-900'>Research proposal submission deadline</span>: July 15, 2024</li>
+                <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 30, 2024</li>
                 <li><span className='font-semibold text-red-900'>Final report submission deadline</span>: September 16, 2024</li>
                 <li><span className='font-semibold text-red-900'>Notification of presentation and Poster</span>: September 30, 2024</li>
               </ul>
