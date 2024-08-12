@@ -28,7 +28,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
             <ul className='flex flex-col space-y-1'>
               <li className='line-through'><span className='font-semibold text-red-900'>Submission website opening</span> June 1, 2024 </li>
               <li className='line-through'><span className='font-semibold text-red-900'>Submission deadline</span>: July 15, 2024</li>
-              <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 30, 2024</li>
+              <li className='line-through'><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 30, 2024</li>
               <li><span className='font-semibold text-red-900'>Conference</span>: October 7-9, 2024</li>
             </ul>
           </div>
