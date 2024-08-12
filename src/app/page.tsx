@@ -8,7 +8,7 @@ import Footer from '@/components/section/footer';
 import Sponsors from '@/components/section/sponsors';
 import Register from '@/components/section/register';
 import Organizers from '@/components/section/organizers';
-
+import TravelArrangement from '@/components/section/accomodation';
 export default function Home() {
   return (
     <main>
@@ -18,10 +18,12 @@ export default function Home() {
       <Hero />
       {/* Conference */}
       <Conference id="conference" />
+      {/* Register */}
+      <Register id="register" />
       {/* Where and When*/}
       <Where id="where" />
-      {/* Register */}
-      {/* <Register id='registration'/> */}
+      {/*  Travel arrangement */}
+      <TravelArrangement id='travel'/> 
       {/* Steering Committee */}
       <SteeringCommittee />
       {/* Committee */}

@@ -53,7 +53,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
         </div>
         <div>
           <p className='text-justify'>Additional datasets will be added that include aggregation by 3-hour intervals for both types of data. The team will also be including data from 2020, but this will not yet be available at the start of the challenge. Participants are encouraged to utilize these datasets to explore and analyze various aspects of human mobility and to inform policy within these countries.</p>
-          <p className='text-jutify mt-3 font-semibold'>All participants are required to review and agree to the Terms and Conditions before applying. Please apply to participate in the data challenge by completing the <Link href="https://datacatalog.worldbank.org/search/dataset/0066094/aggregated_mobility_and_density_data_for_the_netmob_2024_data_challenge" className='text-red-900 font-semibold'>Data Request Form</Link>.</p>
+          <p className='text-jutify mt-3 font-semibold'>All participants are required to review and agree to the Terms and Conditions before applying. Please apply to participate in the data challenge by completing the <span className='text-red-900 font-semibold'>Data Request Form (closed)</span>.</p>
           <p className='text-jutify mt-3'>Challenge winners and winning teams will be selected based on their final report submissions. As an award, the winners and winning teams will be granted six-months of access to the Spectus Data Cleanroom, which contains more granular privacy-preserving data. Spectus reserves the right to determine the specific conditions and scope of this access, ensuring alignment with their privacy policies.</p>
         </div>
 

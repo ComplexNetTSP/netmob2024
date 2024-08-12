@@ -131,7 +131,7 @@ export default function Organizers({ className, ...props }: HTMLProps<HTMLDivEle
               />
             </div>
             <Link href="https://humnetlab.berkeley.edu/" className='underline text-center decoration-red-400'>Marta Gonzalez</Link>
-            <p className='text-center'>University of Berkeley</p>
+            <p className='text-center'>University of California, Berkeley</p>
           </div>
         </div>
 
