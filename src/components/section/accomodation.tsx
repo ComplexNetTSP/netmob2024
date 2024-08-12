@@ -24,7 +24,7 @@ export default function TravelArrangement({ className, ...props }: HTMLProps<HTM
         <div id='visa' className='pt-10 flex text-4xl font-atrament'>Nearby Hotels</div>
         <div className='pt-5 text-justify'>
           We encourage you to secure your accommodation as soon as possible, as rooms are expected to fill up quickly.
-          <ol className='pt-2 list-disc list-inside marker:text-red-700 space-y-2 font-medium'>
+          <ol className='pt-2 list-disc list-inside space-y-2 font-medium'>
             <li><Link href="https://www.stateplaza.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing" className='underline decoration-red-400'>State plaza hotel: 2117 E St NW, Washington, DC 20037</Link></li>
             <li><Link href="https://www.ihg.com/vignettecollection/hotels/us/en/washington/wasvc/hoteldetail" className='underline decoration-red-400'>Yours Truly DC Hotel: 1143 New Hampshire Ave NW, Washington, DC 20037</Link></li>
             <li><Link href="https://www.placemakr.com/locations/washington-dc/2500-penn/?utm_source=GMB&utm_medium=organic&utm_campaign=GMB2500pn" className='underline decoration-red-400'>2500 Penn: 2500 Pennsylvania Avenue NW, Washington, DC 20037</Link></li>
