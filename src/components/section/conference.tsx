@@ -26,7 +26,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           <div id="important-date">
             <div className='pt-5 pb-3 text-xl font-medium'>Important Dates</div>
             <ul className='flex flex-col space-y-1'>
-              <li className='line-through'><Link className='font-semibold text-red-900' href="https://netmob24.hotcrp.com/">Submission website opening</Link> June 1, 2024 </li>
+              <li className='line-through'><span className='font-semibold text-red-900'>Submission website opening</span> June 1, 2024 </li>
               <li className='line-through'><span className='font-semibold text-red-900'>Submission deadline</span>: July 15, 2024</li>
               <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 30, 2024</li>
               <li><span className='font-semibold text-red-900'>Conference</span>: October 7-9, 2024</li>
@@ -72,7 +72,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
             <div id="challenge-importante-date">
               <div className='pt-5 pb-3 text-xl font-medium'>Important Dates</div>
               <ul className='flex flex-col space-y-1'>
-                <li className='line-through'><Link className='font-semibold text-red-900' href="https://netmob24.hotcrp.com/">Abstract submission website opening</Link>: June 1, 2024</li>
+                <li className='line-through'><span className='font-semibold text-red-900'>Abstract submission website opening</span>: June 1, 2024</li>
                 <li><span className='font-semibold text-red-900'>Challenge launch</span>: June 10, 2024</li>
                 <li className='line-through'><span className='font-semibold text-red-900'>Research proposal submission deadline</span>: July 15, 2024</li>
                 <li><span className='font-semibold text-red-900'>Notification of acceptance</span>: July 30, 2024</li>
