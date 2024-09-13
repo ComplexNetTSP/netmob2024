@@ -43,6 +43,7 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
         <Link href="/"><NetmobDC className="w-40 text-wihite" /></Link>
         <div id="primary-nav" className='hidden xl:flex gap-4'>
           <button className='ml-20' onClick={() => handleClick("conference")}>Conference</button>
+          <button><Link href="/program">Program</Link></button>
           <button onClick={() => handleClick("register")}>Registration</button>
           <button onClick={() => handleClick("where")}>When & Where</button>
           <button onClick={() => handleClick("travel")}>Travels</button>
@@ -57,6 +58,7 @@ export default function Navbar(props: HTMLProps<HTMLDivElement>) {
       <div id="nav-mobile-menu" className='hidden container mx-auto max-w-xs mb-5 flex-col text-white text-xl space-y-3'>
         <div className='flex justify-end'><IoMdClose size="25px" className='mr-1' onClick={handleMobileMenu}/></div>
         <button className='flex justify-normal' onClick={() => handleClick("conference")}>Conference</button>
+        <button className='flex justify-normal'><Link href="/program">Program</Link></button>
         <button className='flex justify-normal' onClick={() => handleClick("register")}>Registration</button>
         <button className='flex justify-normal' onClick={() => handleClick("where")}>When & Where</button>
         <button className='flex justify-normal' onClick={() => handleClick("travel")}>Travels</button>
