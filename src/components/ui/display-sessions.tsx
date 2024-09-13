@@ -15,7 +15,7 @@ export default function DisplaySessions({ sessions }: DisplaySessionsProps) {
     <div>
       {sessions.map((session, index) => (
         <div key={index}>
-          <h2 id={session.id} className="text-2xl font-bold">{session.name}</h2>
+          <h2 id={session.id} className="text-2xl font-bold text-red-900">{session.name}</h2>
           <ul className="mt-8 mb-8">
             {session.papers.map((paper, index) => (
               <li key={index} className="mt-2">

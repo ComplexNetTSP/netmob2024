@@ -14,7 +14,7 @@ export default function ScheduleItem({time, title, link}:ScheduleItemProps) {
       </p>
       <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
         {link
-          ? <a href={link} className="hover:underline">{ title }</a> 
+          ? <a href={link} className="hover:underline text-red-900">{ title }</a> 
           : <span>{ title }</span>
         }
       </h3>
