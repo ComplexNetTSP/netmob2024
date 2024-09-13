@@ -54,7 +54,7 @@ export const sessionsDay1 = [
     id : "session-b",
     papers: [
       {title: "Generation gaps in activity space segregations: A case study of Tokyo metropolitan areas using human mobility GPS data",
-        authors: "CHENCHEN SUN, Yuya SHIBUYA, Yoshihide SEKIMOTO"}, 
+        authors: "Chenchen Sun, Yuya Shibuya, Yoshihide Sekimoto"}, 
       {title: "Tracing Activity Space Segregation in US Metro Areas Using GPS Data", authors: "Yongjun Zhang"},
       {title: "Unsupervised embedding of mobility reveals invisible barriers in US cities", authors: "Minsuk Kim, Guangyuan Weng, Esteban Moro, Yong-Yeol Ahn"},
       {title: "Urban Segregation and Daily Human Mobility Patterns in Berlin", authors: "Ashish Thampi, Marlli Zambrano Zambrano, Andrzej Jarynowski, Vitaly Belik, Steven Schulz"},
