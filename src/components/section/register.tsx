@@ -26,19 +26,19 @@ export default function Register(props: HTMLProps<HTMLDivElement>) {
             <tbody>
               <tr>
                 <td><Badge>Student</Badge></td>
-                <td>$ 125</td>
+                <td className='line-through'>$ 125</td>
                 <td>$ 175</td>
                 <td className='flex justify-center'><Link href="https://web.cvent.com/event/c0d352e4-b919-4595-9f15-5ee760caf3de/regProcessStep1"><button className='px-2 py-1 bg-green-600 border border-green-700 text-white rounded-lg'>register</button></Link></td>
               </tr>
               <tr className='mt-16'>
                 <td><Badge>Academic</Badge></td>
-                <td>$ 250</td>
+                <td className='line-through'>$ 250</td>
                 <td>$ 350</td>
                 <td className='flex justify-center'><Link href="https://web.cvent.com/event/c0d352e4-b919-4595-9f15-5ee760caf3de/regProcessStep1"><button className='px-2 py-1 bg-green-600 border border-green-700 text-white rounded-lg'>register</button></Link></td>
               </tr>
               <tr className='mt-16'>
                 <td><Badge>Industry</Badge></td>
-                <td>$ 250</td>
+                <td className='line-through'>$ 250</td>
                 <td>$ 350</td>
                 <td className='flex justify-center'><Link href="https://web.cvent.com/event/c0d352e4-b919-4595-9f15-5ee760caf3de/regProcessStep1"><button className='px-2 py-1 bg-green-600 border border-green-700 text-white rounded-lg'>register</button></Link></td>
               </tr>
