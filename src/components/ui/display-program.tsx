@@ -13,10 +13,15 @@ export interface DisplayProgramProps {
 
 export default function DisplayProgram({schedule}:DisplayProgramProps) {
   return (
-    <div className="-my-4 divide-y divide-gray-200 dark:divide-gray-700">
-      {schedule.map((item, index) => (
-        <ScheduleItem key={index} time={item.time} title={item.title} link={item.link}/>
-      ))}
+    <div>
+       {/* Title */}
+      <div className="flex justify-center font-thin text-4xl mb-10">Schedule</div>
+       {/* Display the schedule */}
+      <div className="-my-4 divide-y divide-gray-200 dark:divide-gray-700">
+        {schedule.map((item, index) => (
+          <ScheduleItem key={index} time={item.time} title={item.title} link={item.link}/>
+        ))}
+      </div>
     </div>
   );
 }

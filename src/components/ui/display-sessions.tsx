@@ -13,6 +13,7 @@ export interface DisplaySessionsProps {
 export default function DisplaySessions({ sessions }: DisplaySessionsProps) {
   return (
     <div>
+      <div className="flex justify-center font-thin text-4xl mb-10">Sessions</div>
       {sessions.map((session, index) => (
         <div key={index}>
           <h2 id={session.id} className="text-2xl font-bold text-red-900">{session.name}</h2>
