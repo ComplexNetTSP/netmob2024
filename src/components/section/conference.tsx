@@ -13,6 +13,9 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
         <div className='pt-5 text-justify'>
           NetMob 2024 runs on a flexible format: a single track of short contributed talks, a simplified submission procedure, and the possibility to present early results or work submitted elsewhere. We welcome all contributions that deal with the analysis of mobile phone datasets. This includes but is not limited to analyses of CDRs, xDRs, mobile location data, Wi-Fi usage, mobile app data, social media content, etc.
         </div>
+        <div className='pt-5 text-justify'>
+          The full conference program, including the schedule of talks and presentations, is available <Link href="/program" className='text-red-900 font-medium hover:underline'>here</Link>.
+        </div>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-10'>
           <div id="submission-format">

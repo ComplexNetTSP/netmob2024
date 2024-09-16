@@ -9,7 +9,7 @@ interface ScheduleItemProps {
 export default function ScheduleItem({time, title, link}:ScheduleItemProps) {
   return (
     <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-      <p className="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
+      <p className="flex justify-start w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
         {time}
       </p>
       <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
