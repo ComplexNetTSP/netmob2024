@@ -13,15 +13,15 @@ export default function Schedule() {
         <div id="program-title" className='flex justify-center text-5xl lg:text-8xl italic font-atrament text-red-900'>Program</div>
 
         <Tabs defaultValue="day1" className="mt-20 w-full">
-          <TabsList className="grid w-full grid-cols-3">
+          <TabsList className="grid w-full grid-cols-1 lg:grid-cols-3">
             <TabsTrigger value="day1">Monday 7, Ocober 2024</TabsTrigger>
             <TabsTrigger value="day2">Tuesday 8, Ocober 2024</TabsTrigger>
             <TabsTrigger value="day3">Wednesday 9, October 2024</TabsTrigger>
           </TabsList>
           
           { /* Monday 7, Ocober 2024 */}
-          <TabsContent value="day1" className="mt-5 grid grid-cols-2 gap-10">
-            <div className='col-span-2 justify-center'>
+          <TabsContent value="day1" className="mt-20 lg:mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div className='lg:col-span-2 justify-center'>
               <Keynotes keynote={keynoteDay1} />
             </div>          
             <DisplayProgram schedule={day1} />
