@@ -9,7 +9,7 @@ export const day1 = [
   { time: "10:30 - 10:45", title: "Break" },
   { time: "10:45 - 11:45", title: "Session B: Urban Segregation and Mobility Barriers", link: "#session-b"},
   { time: "11:45 - 12:45", title: "Session C: Mobility in the Context of Socio-Economic Vulnerability" , link: "#session-c"},
-  { time: "12:45 - 14:00", title: "Lunch" },
+  { time: "12:45 - 14:00", title: "Lunch and Conference Poster Session" },
   { time: "14:00 - 14:45", title: "Keynote: Neave O’Clery: Can we do policy impact evaluation using mobile phone data in low data settings?" },
   { time: "14:45 - 15:00", title: "Break" },
   { time: "15:00 - 16:00", title: "Session D: Health and Epidemiology", link: "#session-d" },

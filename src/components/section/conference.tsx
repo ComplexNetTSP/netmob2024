@@ -2,6 +2,12 @@ import React from 'react'
 import type { HTMLProps } from "react";
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
+import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
+} from "@/components/ui/alert"
+import { Terminal } from "lucide-react"
 
 export default function Conference(props: HTMLProps<HTMLDivElement>) {
   const { className, ...rest } = props;
@@ -13,9 +19,16 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
         <div className='pt-5 text-justify'>
           NetMob 2024 runs on a flexible format: a single track of short contributed talks, a simplified submission procedure, and the possibility to present early results or work submitted elsewhere. We welcome all contributions that deal with the analysis of mobile phone datasets. This includes but is not limited to analyses of CDRs, xDRs, mobile location data, Wi-Fi usage, mobile app data, social media content, etc.
         </div>
-        <div className='pt-5 text-justify'>
-          The full conference program, including the schedule of talks and presentations, is available <Link href="/program" className='text-red-900 font-medium hover:underline'>here</Link>.
-        </div>
+
+        <Alert id='conference-program' className='my-5 border-red-700'>
+          <div className='flex items-center'>
+            <Terminal className="h-6 w-6 mr-2" />
+            <AlertTitle className='flex text-xl font-medium'>Conference Program</AlertTitle>
+          </div>
+          <AlertDescription className='text-justify'>
+            The full conference program, including the schedule of talks and presentations, is available <Link href="/program" className='text-red-900 font-medium hover:underline'>here</Link>.
+          </AlertDescription>
+        </Alert>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-10'>
           <div id="submission-format">
@@ -37,7 +50,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           </div>
         </div>
 
-        <div id='main-conference' className='pt-10 flex text-4xl font-atrament'>Data Challenge</div>
+        <div id='main-challenge' className='pt-10 flex text-4xl font-atrament'>Data Challenge</div>
 
         <div className='pt-5'>
           <p className='text-justify'>
@@ -97,7 +110,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
               </ul>
             </div>
           </div>
-           {/* end right column */}
+          {/* end right column */}
         </div>
       </div>
     </div>
