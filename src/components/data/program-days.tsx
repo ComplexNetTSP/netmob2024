@@ -57,7 +57,7 @@ export const sessionsDay1 = [
         authors: "Chenchen Sun, Yuya Shibuya, Yoshihide Sekimoto"}, 
       {title: "Tracing Activity Space Segregation in US Metro Areas Using GPS Data", authors: "Yongjun Zhang"},
       {title: "Unsupervised embedding of mobility reveals invisible barriers in US cities", authors: "Minsuk Kim, Guangyuan Weng, Esteban Moro, Yong-Yeol Ahn"},
-      {title: "Urban Segregation and Daily Human Mobility Patterns in Berlin", authors: "Ashish Thampi, Marlli Zambrano Zambrano, Andrzej Jarynowski, Vitaly Belik, Steven Schulz"},
+      {title: "Urban Segregation and Daily Human Mobility Patterns in Berlin", authors: "Ashish Thampi, Marlli Zambrano Zambrano, Alejandra Rincon, Andrzej Jarynowski, Vitaly Belik, Steven Schulz"},
     ]
   }, {
     name: "Session C: Mobility in the Context of Socio-Economic Vulnerability",
