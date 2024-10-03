@@ -40,8 +40,8 @@ export default function Schedule() {
         <div id='title-schedule' className='pt-10 flex text-4xl font-atrament'>Schedule</div>
         <Tabs defaultValue="day1" className="mt-10 w-full">
           <TabsList className="grid w-full grid-cols-1 lg:grid-cols-3">
-            <TabsTrigger value="day1">Monday 7, Ocober 2024</TabsTrigger>
-            <TabsTrigger value="day2">Tuesday 8, Ocober 2024</TabsTrigger>
+            <TabsTrigger value="day1">Monday 7, October 2024</TabsTrigger>
+            <TabsTrigger value="day2">Tuesday 8, October 2024</TabsTrigger>
             <TabsTrigger value="day3">Wednesday 9, October 2024</TabsTrigger>
           </TabsList>
 
