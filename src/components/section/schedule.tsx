@@ -1,5 +1,5 @@
 import React from 'react';
-import { day1, day2, day3, sessionsDay1, sessionsDay2, keynoteDay1, keynoteDay2 } from '@/components/data/program-days';
+import { day1, day2, day3, sessionsDay1, sessionsDay2, sessionsDay3, keynoteDay1, keynoteDay2 } from '@/components/data/program-days';
 import DisplayProgram from "@/components/ui/display-program";
 import DisplaySessions from "@/components/ui/display-sessions";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -55,7 +55,7 @@ export default function Schedule() {
           </TabsContent>
 
           { /* Tuesday 8, Ocober 2024 */}
-          <TabsContent value="day2" className="mt-5 grid grid-cols-2 gap-10">
+          <TabsContent value="day2" className="mt-20 lg:mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div className='col-span-2 justify-center'>
               <Keynotes keynote={keynoteDay2} />
             </div>
@@ -64,8 +64,9 @@ export default function Schedule() {
           </TabsContent>
 
           { /* Wednesday 9, October 2024 */}
-          <TabsContent value="day3">
+          <TabsContent value="day3" className="mt-20 lg:mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
             <DisplayProgram schedule={day3} />
+            <DisplaySessions sessions={sessionsDay3} />
           </TabsContent>
         </Tabs>
       </div>
