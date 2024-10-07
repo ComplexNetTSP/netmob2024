@@ -46,7 +46,7 @@ export const sessionsDay1 = [
       {title: "YJMob100K: City-scale and longitudinal dataset of anonymized human mobility trajectories",
        authors: "Takahiro Yabe, Kota Tsubouchi, Toru Shimizu, Yoshihide Sekimoto, Kaoru Sezaki, Esteban Moro, Alex Pentland"},
       {title: "Decomposing geographical and universal aspects of human mobility", authors: "Louis Boucherie"},
-      {title: "One rule does not fit all: deviation from universality in human mobility modelling", authors : "Ludovico Napoli, Marton Karsai, Esteban Moro, Ludovico Napoli"},
+      {title: "One rule does not fit all: deviation from universality in human mobility modelling", authors : "Ludovico Napoli, Marton Karsai, Esteban Moro"},
       {title: "Comparing Fairness of Generative Mobility Models", authors: "Afra Mashhadi, Daniel Wang, Ekin Ugurel"},
     ]
   },{
@@ -63,10 +63,10 @@ export const sessionsDay1 = [
     name: "Session C: Mobility in the Context of Socio-Economic Vulnerability",
     id : "session-c",
     papers: [
-      {title:"Mobility and Vulnerability: The Role of Informal Employment", authors: "Ollin Langle Chimal, Marta Gonzalez, Marco Rosas, Christopher Chavez"},
-      {title:"Mexico's resilience in an Earthquakes", authors: "Ollin Langle Chimal"},
-      {title:"Unconstrained mobility patterns reveal significant gender differencess", authors: "Silvia De Sojo, Sune Lehmann, Laura Alessandretti"},
       {title:"What makes for a successful ‘MPD for Policy’ initiative? Lessons learnt and best practice", authors: "Thomas Smallwood, Daniel Power, Sarah Allen, Francky Salomon, Trevor Monroe, Sveta Milusheva, Esperanza Magpantay,Cathy Riley, Sophie Delaporte"},
+      {title:"Unconstrained mobility patterns reveal significant gender differencess", authors: "Silvia De Sojo, Sune Lehmann, Laura Alessandretti"},
+      {title:"Bias in Smartphone Mobility Estimates in Low Smartphone Penetration Settings", authors: "Sveta Milusheva, Daniel Bjorkegren, Leonardo Viotti"},
+      {title:"Mobility and Vulnerability: The Role of Informal Employment", authors: "Ollin Langle Chimal, Marta Gonzalez, Marco Rosas, Christopher Chavez"},
     ]
   }, {
     name: "Session D: Health and Epidemiology",
@@ -110,7 +110,7 @@ export const sessionsDay2 = [
     name: "Session G: AI and machine learning methods applied to studying mobility",
     id : "session-g",
     papers: [
-      {title: "Business Site Recommendation with Deep Q-Learning" , authors: "Atra Zeynep Bahceci, Hasan Alp Boz, Selim Balcisoy"},
+      {title:"Examining 5G Adoption: Effects on Network Traffic and Mobile Service Usage", authors: "Sachit Mishra, André F. Zanella, Orlando E. Martínez-Durive, Diego Madariaga, Cezary Ziemlicki, Marco Fiore"},
       {title: "GeoAvatar: Generating Personal Mobility instead of Isolated Trips", authors: "Peiran Li, Haoran Zhang, Wenjing Li, Dou Huang, Jinyu Chen, Yuhao Yao, Xuan Song, Shibasaki Ryosuke, Koshizuka Noboru"},
       {title: "Large Language Models Are Zero-Shot Next-Location Predictors", authors: "Ciro Beneduce, Bruno Lepri, Massimiliano Luca, Ciro Beneduce"},
       {title: "The Long-Term Effects of Recommender Systems on Urban Mobility", authors: "Giovanni Mauro, Marco Minici, Andrea Frasson, Luca Pappalardo"},      
@@ -122,7 +122,7 @@ export const sessionsDay2 = [
       {title:"Understanding spatial mismatch with embeddings and transformer models", authors: "Andrew Renninger"},
       {title:"Physical partisan proximity outweighs online ties in predicting US voting outcomes", authors: "Marco Tonin, Michele Tizzoni, Bruno Lepri"},
       {title:"Mobile App Consumption and Political Orientation", authors: "Orlando Eduardo Martínez-Durive, Iñaki Ucar, Zbigniew Smoreda, Esteban Moro Egido, Marco Fiore, Esteban Moro"},
-      {title:"Examining 5G Adoption: Effects on Network Traffic and Mobile Service Usage", authors: "Sachit Mishra, André F. Zanella, Orlando E. Martínez-Durive, Diego Madariaga, Cezary Ziemlicki, Marco Fiore"},
+      {title:"Mexico's resilience in an Earthquakes", authors: "Ollin Langle Chimal"},
     ],
   },{
     name: "Session I: Measuring Mobility with MPD: Methods and Limitations",
@@ -139,8 +139,8 @@ export const sessionsDay2 = [
     papers: [
       {title:"A data science framework for planning the growth of bicycle infrastructures", authors: "Maria Sol Tadeo, Luis E. Olmos, Dimitris Vlachogiannis, Fahad Alhasoun, Xavier Espinet Alegre, Catalina Ochoa, Felipe Targa, Marta C. González"},
       {title:"Unequal socio-economic impact and recovery of COVID-19 in Mexico", authors: "Ollin Langle Chimal, Bernardo Garcia Bulle-Bueno, Esteban Moro Egido, Samuel Fraiberger, Esteban Moro"},
-      {title:"Exposure to air pollution using MNO data", authors: "Erika Cerasti, Cristina Faricelli, Paolo Mattera, Roberta Radini, Tiziana Tuoto"},
       {title:"Socioeconomic-informed emergency re-location dynamics during wildfires in Chile", authors: "Timur Naushirvanov, Erick Elejalde, Kyriaki Kalimeri, Elisa Omodei, Marton Karsai, Leo Ferres"},
+      {title:"Extreme heat is associated with reductions in human activity", authors: "Andrew Renninger, Olena Holubowska"},
     ],
   }
 ]
