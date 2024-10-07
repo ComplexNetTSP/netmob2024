@@ -3,7 +3,7 @@ import { title } from "process";
 import React from "react";
 
 export const day1 = [
-  { time: "08:30 - 09:00", title: "Registration" },
+  { time: "08:00 - 09:00", title: "Registration" },
   { time: "09:00 - 09:30", title: "Welcome" },
   { time: "09:30 - 10:30", title: "Session A: Modelling Human Mobility", link: "#session-a" },
   { time: "10:30 - 10:45", title: "Break" },
