@@ -3,38 +3,40 @@ import { title } from "process";
 import React from "react";
 
 export const day1 = [
-  { time: "08:00 - 09:00", title: "Registration" },
+  { time: "08:00 - 09:00", title: "Registration and Breakfast" },
   { time: "09:00 - 09:30", title: "Welcome" },
   { time: "09:30 - 10:30", title: "Session A: Modelling Human Mobility", link: "#session-a" },
-  { time: "10:30 - 10:45", title: "Break" },
+  { time: "10:30 - 10:45", title: "Coffee Break" },
   { time: "10:45 - 11:45", title: "Session B: Urban Segregation and Mobility Barriers", link: "#session-b"},
   { time: "11:45 - 12:45", title: "Session C: Mobility in the Context of Socio-Economic Vulnerability" , link: "#session-c"},
   { time: "12:45 - 14:00", title: "Lunch and Conference Poster Session" },
   { time: "14:00 - 14:45", title: "Keynote: Neave O’Clery: Can we do policy impact evaluation using mobile phone data in low data settings?" },
-  { time: "14:45 - 15:00", title: "Break" },
+  { time: "14:45 - 15:00", title: "Coffee Break" },
   { time: "15:00 - 16:00", title: "Session D: Health and Epidemiology", link: "#session-d" },
   { time: "16:00 - 17:00", title: "Session E: Covid 19, human mobility and the distribution of economic activity", link: "#session-e" },
 ]
 
 export const day2 = [
+  { time: "08:00 - 09:00", title: "Breakfast" },
   { time: "09:00 - 10:00", title: "Keynote: Ali Mostafavi: Decoding the Anatomy of Resilient Communities Based on Human Mobility Shifts" },
   { time: "10:00 - 11:00", title: "Session F: Urban Transport Systems", link: "#session-f" },
-  { time: "11:00 - 11:15", title: "Break" },
+  { time: "11:00 - 11:15", title: "Coffee Break" },
   { time: "11:15 - 12:15", title: "Session G: AI and machine learning methods applied to studying mobility", link: "#session-g" },
-  { time: "12:15 - 13:30", title: "Lunch/Challenge Poster Session" },
+  { time: "12:15 - 13:30", title: "Lunch and Challenge Poster Session" },
   { time: "13:30 - 14:30", title: "Session H: Social Media, ICT and Human Behavior", link: "#session-h" },
   { time: "14:30 - 15:30", title: "Session I: Measuring Mobility with MPD: Methods and Limitations", link: "#session-i" },  
-  { time: "15:30 - 15:45", title: "Break" },
+  { time: "15:30 - 15:45", title: "Coffee Break" },
   { time: "15:45 - 16:30", title: "Session J: Policy Application of MPD", link: "#session-j" },
   { time: "16:30 - 17:30", title: "Policymaker Session" },
   { time: "17:30", title: "Reception" },
 ]
 
 export const day3 = [
-  { time: "09:00 - 10:00", title: "Challenge Session 1" },
-  { time: "10:00 - 11:00", title: "Challenge Session 2" },
-  { time: "11:00 - 11:15", title: "Break" },
-  { time: "11:15 - 12:15", title: "Challenge Session 3" },
+  { time: "08:00 - 09:00", title: "Breakfast" },
+  { time: "09:00 - 10:00", title: "Data Challenge Session 1" },
+  { time: "10:00 - 11:00", title: "Data Challenge Session 2" },
+  { time: "11:00 - 11:15", title: "Coffee Break" },
+  { time: "11:15 - 12:15", title: "Data Challenge Session 3" },
   { time: "12:15 - 12:45", title: "Awards + Closing" },
 ]
 
@@ -82,7 +84,7 @@ export const sessionsDay1 = [
     papers: [
       {title:"An assessment of small business impact disparities with respect to ethnorace in metropolitan areas in the US using mobility data", authors: "Saad Mohammad Abrar, Kazi Tasnim Zinat, Naman Awasthi, Vanessa Frias-Martinez"},
       {title:"Job loss disrupts individuals’ mobility and their exploratory patterns", authors: "Simone Centellegher, Marco De Nadai, Marco Tonin, Bruno Lepri, Lorenzo Lucchini"},
-      {title:"Measuring the Impact of Remote Working on the Structure of Urban Activity in the Top 100 US Cities between 2019 and 2023", authors: "Michael Leong, Jinhua Zhao"},
+      {title:"From Pre to Post-Pandemic: Measuring Shifts in Urban Activity Across 100 US Cities Using Location-Based Services Data", authors: "Michael Leong, Jinhua Zhao, Yixuan Liu, Joy Wang"},
       {title:"Mobility patterns reveal a “doughnut effect\" for activity in large American cities", authors: "Andrew Renninger"},
     ]
   }
