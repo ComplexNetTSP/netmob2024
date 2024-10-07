@@ -33,10 +33,10 @@ export const day2 = [
 
 export const day3 = [
   { time: "08:00 - 09:00", title: "Breakfast" },
-  { time: "09:00 - 10:00", title: "Data Challenge Session 1" },
-  { time: "10:00 - 11:00", title: "Data Challenge Session 2" },
+  { time: "09:00 - 10:00", title: "Data Challenge Session 1", link: "#session-1" },
+  { time: "10:00 - 11:00", title: "Data Challenge Session 2", link: "#session-2" },
   { time: "11:00 - 11:15", title: "Coffee Break" },
-  { time: "11:15 - 12:15", title: "Data Challenge Session 3" },
+  { time: "11:15 - 12:15", title: "Data Challenge Session 3", link: "#session-2" },
   { time: "12:15 - 12:45", title: "Awards + Closing" },
 ]
 
@@ -158,50 +158,35 @@ export const keynoteDay2 = {
 
 export const sessionsDay3 = [
   {
-    name: "Session A: Modelling Human Mobility", 
-    id : "session-a",
+    name: "Data Challenge Session 1", 
+    id : "session-1",
     papers: [
-      {title: "YJMob100K: City-scale and longitudinal dataset of anonymized human mobility trajectories",
-       authors: "Takahiro Yabe, Kota Tsubouchi, Toru Shimizu, Yoshihide Sekimoto, Kaoru Sezaki, Esteban Moro, Alex Pentland"},
-      {title: "Decomposing geographical and universal aspects of human mobility", authors: "Louis Boucherie"},
-      {title: "One rule does not fit all: deviation from universality in human mobility modelling", authors : "Ludovico Napoli, Marton Karsai, Esteban Moro"},
-      {title: "Comparing Fairness of Generative Mobility Models", authors: "Afra Mashhadi, Daniel Wang, Ekin Ugurel"},
+      {title: "Scorching streets: The Impact of Heat Stress on Urban Mobility in India",
+       authors: "Paul Blanchard, Lou Chiani"},
+      {title: "Socioeconomic Disparities in Heat Exposure and Mitigation Based on Human Mobility in India", 
+       authors: "Jue Ma, Santiago Garcia Gabilondo, Carl D. Torbjörnsson, Chenchen Sun, Zeyu Wu, Yuya Shibuya, Yoshihide Sekimoto"},
+      {title: "Decode Segregation in Mobility Networks: The Role of the Built Environment", 
+       authors : "Antonio Desiderio, Yuan Liao, Silvia De Sojo, Federico Delussu, Laura Alessandretti, Louis Boucherie, Lasse Pelle Skytte Hansen"},
+      {title: "Mobility, Information, and Climate Resilience: Evidence from India's Rural Poor", authors: "Nikhil Basavappa, Ricardo Pommer Munoz"},
     ]
   },{
-    name: "Session B: Urban Segregation and Mobility Barriers",
-    id : "session-b",
+    name: "Data Challenge Session 2",
+    id : "session-2",
     papers: [
-      {title: "Generation gaps in activity space segregations: A case study of Tokyo metropolitan areas using human mobility GPS data",
-        authors: "Chenchen Sun, Yuya Shibuya, Yoshihide Sekimoto"}, 
-      {title: "Tracing Activity Space Segregation in US Metro Areas Using GPS Data", authors: "Yongjun Zhang"},
-      {title: "Unsupervised embedding of mobility reveals invisible barriers in US cities", authors: "Minsuk Kim, Guangyuan Weng, Esteban Moro, Yong-Yeol Ahn"},
-      {title: "Urban Segregation and Daily Human Mobility Patterns in Berlin", authors: "Ashish Thampi, Marlli Zambrano Zambrano, Alejandra Rincon, Andrzej Jarynowski, Vitaly Belik, Steven Schulz"},
+      {title: "Dynamic Air Pollution Exposure Index Using Human Mobility Patterns: Case Studies from the Global South",
+        authors: "Yuya Shibuya, Santiago Garcia Gabilondo, Carl D. Torbjörnsson, Zeyu Wu, Chenchen Sun, Jue Ma, Yoshihide Sekimoto, Yuya Shibuya"}, 
+      {title: "Silent Majority from Rural India: Where are They Now?", authors: "Yueyang Yi, Roy Meijer, Yijie Zhou, Jessie Ziyue Zhu"},
+      {title: "Disaster-Driven Climate Mobility Changes: Findings from Large Mobile Phone Datasets in India", authors: "Guangyuan Weng, Sukie Xiuqi Yang, Catherine Chen, Shiyue Cui, Zhicong Chen, Ying Zhu"},
+      {title: "Urban Rhythms and Dynamic City Centres", authors: "Federico Botta, Marcos Oliveira, Rudy Arthur"},
     ]
   }, {
-    name: "Session C: Mobility in the Context of Socio-Economic Vulnerability",
-    id : "session-c",
+    name: "Data Challenge Session 3",
+    id : "session-3",
     papers: [
-      {title:"What makes for a successful ‘MPD for Policy’ initiative? Lessons learnt and best practice", authors: "Thomas Smallwood, Daniel Power, Sarah Allen, Francky Salomon, Trevor Monroe, Sveta Milusheva, Esperanza Magpantay,Cathy Riley, Sophie Delaporte"},
-      {title:"Unconstrained mobility patterns reveal significant gender differencess", authors: "Silvia De Sojo, Sune Lehmann, Laura Alessandretti"},
-      {title:"Bias in Smartphone Mobility Estimates in Low Smartphone Penetration Settings", authors: "Sveta Milusheva, Daniel Bjorkegren, Leonardo Viotti"},
-      {title:"Mobility and Vulnerability: The Role of Informal Employment", authors: "Ollin Langle Chimal, Marta Gonzalez, Marco Rosas, Christopher Chavez"},
-    ]
-  }, {
-    name: "Session D: Health and Epidemiology",
-    id : "session-d",
-    papers: [
-      {title:"Analysis of performance improvements and bias associated with human mobility data use in COVID-19 case prediction models", authors: "Saad Mohammad Abrar, Naman Awasthi, Daniel Smolyak, Vanessa Frias-Martinez"},
-      {title:"Iterating short periods of non-pharmaceutical interventions mitigates loss of adherence to restrictions", authors: "Albano Rikani, Laura Di Domenico, Chiara E. Sabbatini, Victor Navarro, Leo Ferres, Jocelyn Raude, Vittoria Colizza"},
-      {title:"Large-scale population mobility data provides meaningful indicators of fast food intake and predicts diet-related diseases across diverse populations", authors: "Abigail Horn, Kayla de la Haye, Esteban Moro, Bernardo Garcia Bulle-Bueno, Mohsen Bahrami, Sandy Pentland, Burcin Bozkaya, Yan Cui, John Wilson"},
-    ]
-  }, {
-    name: "Session E: Covid 19, human mobility and the distribution of economic activity",
-    id : "session-e",
-    papers: [
-      {title:"An assessment of small business impact disparities with respect to ethnorace in metropolitan areas in the US using mobility data", authors: "Saad Mohammad Abrar, Kazi Tasnim Zinat, Naman Awasthi, Vanessa Frias-Martinez"},
-      {title:"Job loss disrupts individuals’ mobility and their exploratory patterns", authors: "Simone Centellegher, Marco De Nadai, Marco Tonin, Bruno Lepri, Lorenzo Lucchini"},
-      {title:"From Pre to Post-Pandemic: Measuring Shifts in Urban Activity Across 100 US Cities Using Location-Based Services Data", authors: "Michael Leong, Jinhua Zhao, Yixuan Liu, Joy Wang"},
-      {title:"Mobility patterns reveal a “doughnut effect\" for activity in large American cities", authors: "Andrew Renninger"},
+      {title:"Leveraging high-resolution connectivity data for pandemic preparedness: from potential emergence areas to nodes of global human mobility.", authors: "Davide Bogani, Lorenzo Mari, Renato Casagrandi"},
+      {title:"Revealing Disparities in Public and Digital Infrastructure of Developing Countries", authors: "Abhishek Kumar Mishra, Sachit Mishra"},
+      {title:"Assessing Urban and Rural Routing Inefficiencies with Aggregated Mobility Patterns", authors: "Nandini Iyer, Massimiliano Luca, Riccardo Di Clemente"},
+      {title:"Identifying Opportunities for Social Development by Estimating Supply and Demand of Public Transportation in Mexico City", authors: "Carlos O. Lopez-Tenorio, Marco A. Rosas, Fernando Gutierrez Luna, Carlos Gershenson"},
     ]
   }
 ]
