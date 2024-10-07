@@ -154,3 +154,54 @@ export const keynoteDay2 = {
   abstract: "This talk presents the synthesis of a series of studies in which various aspects of community resilience dynamics are characterized based on fluctuations in human mobility patterns. From a human-centric characterization of flood exposure to the evaluation of disrupted access to critical facilities and mapping of post-disaster lifestyle recovery, this talk showcases key applications of human mobility data for unraveling and monitoring the pulse of communities in the face of crises.",
   img: "/img/speakers/ali-mostafavi.png"
 }
+
+
+export const sessionsDay3 = [
+  {
+    name: "Session A: Modelling Human Mobility", 
+    id : "session-a",
+    papers: [
+      {title: "YJMob100K: City-scale and longitudinal dataset of anonymized human mobility trajectories",
+       authors: "Takahiro Yabe, Kota Tsubouchi, Toru Shimizu, Yoshihide Sekimoto, Kaoru Sezaki, Esteban Moro, Alex Pentland"},
+      {title: "Decomposing geographical and universal aspects of human mobility", authors: "Louis Boucherie"},
+      {title: "One rule does not fit all: deviation from universality in human mobility modelling", authors : "Ludovico Napoli, Marton Karsai, Esteban Moro"},
+      {title: "Comparing Fairness of Generative Mobility Models", authors: "Afra Mashhadi, Daniel Wang, Ekin Ugurel"},
+    ]
+  },{
+    name: "Session B: Urban Segregation and Mobility Barriers",
+    id : "session-b",
+    papers: [
+      {title: "Generation gaps in activity space segregations: A case study of Tokyo metropolitan areas using human mobility GPS data",
+        authors: "Chenchen Sun, Yuya Shibuya, Yoshihide Sekimoto"}, 
+      {title: "Tracing Activity Space Segregation in US Metro Areas Using GPS Data", authors: "Yongjun Zhang"},
+      {title: "Unsupervised embedding of mobility reveals invisible barriers in US cities", authors: "Minsuk Kim, Guangyuan Weng, Esteban Moro, Yong-Yeol Ahn"},
+      {title: "Urban Segregation and Daily Human Mobility Patterns in Berlin", authors: "Ashish Thampi, Marlli Zambrano Zambrano, Alejandra Rincon, Andrzej Jarynowski, Vitaly Belik, Steven Schulz"},
+    ]
+  }, {
+    name: "Session C: Mobility in the Context of Socio-Economic Vulnerability",
+    id : "session-c",
+    papers: [
+      {title:"What makes for a successful ‘MPD for Policy’ initiative? Lessons learnt and best practice", authors: "Thomas Smallwood, Daniel Power, Sarah Allen, Francky Salomon, Trevor Monroe, Sveta Milusheva, Esperanza Magpantay,Cathy Riley, Sophie Delaporte"},
+      {title:"Unconstrained mobility patterns reveal significant gender differencess", authors: "Silvia De Sojo, Sune Lehmann, Laura Alessandretti"},
+      {title:"Bias in Smartphone Mobility Estimates in Low Smartphone Penetration Settings", authors: "Sveta Milusheva, Daniel Bjorkegren, Leonardo Viotti"},
+      {title:"Mobility and Vulnerability: The Role of Informal Employment", authors: "Ollin Langle Chimal, Marta Gonzalez, Marco Rosas, Christopher Chavez"},
+    ]
+  }, {
+    name: "Session D: Health and Epidemiology",
+    id : "session-d",
+    papers: [
+      {title:"Analysis of performance improvements and bias associated with human mobility data use in COVID-19 case prediction models", authors: "Saad Mohammad Abrar, Naman Awasthi, Daniel Smolyak, Vanessa Frias-Martinez"},
+      {title:"Iterating short periods of non-pharmaceutical interventions mitigates loss of adherence to restrictions", authors: "Albano Rikani, Laura Di Domenico, Chiara E. Sabbatini, Victor Navarro, Leo Ferres, Jocelyn Raude, Vittoria Colizza"},
+      {title:"Large-scale population mobility data provides meaningful indicators of fast food intake and predicts diet-related diseases across diverse populations", authors: "Abigail Horn, Kayla de la Haye, Esteban Moro, Bernardo Garcia Bulle-Bueno, Mohsen Bahrami, Sandy Pentland, Burcin Bozkaya, Yan Cui, John Wilson"},
+    ]
+  }, {
+    name: "Session E: Covid 19, human mobility and the distribution of economic activity",
+    id : "session-e",
+    papers: [
+      {title:"An assessment of small business impact disparities with respect to ethnorace in metropolitan areas in the US using mobility data", authors: "Saad Mohammad Abrar, Kazi Tasnim Zinat, Naman Awasthi, Vanessa Frias-Martinez"},
+      {title:"Job loss disrupts individuals’ mobility and their exploratory patterns", authors: "Simone Centellegher, Marco De Nadai, Marco Tonin, Bruno Lepri, Lorenzo Lucchini"},
+      {title:"From Pre to Post-Pandemic: Measuring Shifts in Urban Activity Across 100 US Cities Using Location-Based Services Data", authors: "Michael Leong, Jinhua Zhao, Yixuan Liu, Joy Wang"},
+      {title:"Mobility patterns reveal a “doughnut effect\" for activity in large American cities", authors: "Andrew Renninger"},
+    ]
+  }
+]
