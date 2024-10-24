@@ -20,6 +20,7 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
           NetMob 2024 runs on a flexible format: a single track of short contributed talks, a simplified submission procedure, and the possibility to present early results or work submitted elsewhere. We welcome all contributions that deal with the analysis of mobile phone datasets. This includes but is not limited to analyses of CDRs, xDRs, mobile location data, Wi-Fi usage, mobile app data, social media content, etc.
         </div>
 
+        {/* conference  program */}
         <Alert id='conference-program' className='my-5 border-red-700'>
           <div className='flex items-center'>
             <Terminal className="h-6 w-6 mr-2" />
@@ -29,7 +30,19 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
             The full conference program, including the schedule of talks and presentations, is available <Link href="/program" className='text-red-900 font-medium hover:underline'>here</Link>.
           </AlertDescription>
         </Alert>
+        
+        {/* book of absract */}
+        <Alert id='conference-program' className='my-5 border-red-700'>
+          <div className='flex items-center'>
+            <Terminal className="h-6 w-6 mr-2" />
+            <AlertTitle className='flex text-xl font-medium'>NetMob book of abstract</AlertTitle>
+          </div>
+          <AlertDescription className='text-justify'>
+            The book of abstract is available <Link href="/book/BookAbstracts_Netmob24.pdf" className='text-red-900 font-medium hover:underline'>here (large file 150 MBytes)</Link>.
+          </AlertDescription>
+        </Alert>
 
+        
         <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-10'>
           <div id="submission-format">
             <div className='pt-5 pb-3 text-xl font-medium'>Submission Format</div>
@@ -39,8 +52,9 @@ export default function Conference(props: HTMLProps<HTMLDivElement>) {
             </ul>
           </div>
 
+          
           <div id="important-date">
-            <div className='pt-5 pb-3 text-xl font-medium'>Important Dates</div>
+            <div className='pt-5 pb-3 text-xl font-medium'>NetMob book of abstract</div>
             <ul className='flex flex-col space-y-1'>
               <li className='line-through'><span className='font-semibold text-red-900'>Submission website opening</span> June 1, 2024 </li>
               <li className='line-through'><span className='font-semibold text-red-900'>Submission deadline</span>: July 15, 2024</li>
